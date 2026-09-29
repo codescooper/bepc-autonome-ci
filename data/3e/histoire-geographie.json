@@ -1,0 +1,41 @@
+{
+  "subject": "histoire-geographie",
+  "level": "3e",
+  "status": "official_verified",
+  "history": [
+    {
+      "theme": "Évolution sociopolitique de la Côte d’Ivoire et de l’Afrique du XIXe siècle à nos jours",
+      "lessons": [
+        "Le mouvement impérialiste et la colonisation en Côte d’Ivoire",
+        "L’accession de la Côte d’Ivoire à l’indépendance",
+        "Les crises sociopolitiques de l’Afrique indépendante : guerre du Biafra / guerre du Rwanda"
+      ]
+    },
+    {
+      "theme": "De la Seconde Guerre mondiale aux efforts de construction du monde et de l’Afrique",
+      "lessons": [
+        "Les causes, caractères et conséquences de la Deuxième Guerre mondiale",
+        "L’Organisation des Nations Unies (ONU)",
+        "L’Union Africaine (UA)"
+      ]
+    }
+  ],
+  "geography": [
+    {
+      "theme": "Étude économique de la Côte d’Ivoire",
+      "lessons": [
+        "Les atouts naturels et humains du développement économique de la Côte d’Ivoire",
+        "Les secteurs d’activités économiques de la Côte d’Ivoire",
+        "Les problèmes du développement économique de la Côte d’Ivoire"
+      ]
+    },
+    {
+      "theme": "L’Afrique face à la mondialisation",
+      "lessons": [
+        "Étude économique de l’Afrique",
+        "La place de l’Afrique dans la mondialisation"
+      ]
+    }
+  ],
+  "source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/Histoire_Geographie/HISTGEO_3eme.pdf"
+}
