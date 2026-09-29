@@ -1,0 +1,25 @@
+{
+  "subject": "mathematiques",
+  "level": "3e",
+  "school_year_reference": "2025-2026",
+  "annual_hours": 120,
+  "hours_per_week": 4,
+  "status": "official_verified",
+  "lessons": [
+    "Calcul littéral",
+    "Propriétés de Thalès dans un triangle",
+    "Racines carrées",
+    "Triangle rectangle",
+    "Calcul numérique",
+    "Angles inscrits",
+    "Vecteurs",
+    "Équations et inéquations dans ℝ",
+    "Coordonnées de vecteurs",
+    "Équations de droites",
+    "Statistique",
+    "Équations et inéquations dans ℝ × ℝ",
+    "Applications affines",
+    "Pyramides et cônes"
+  ],
+  "source_url": "https://dpfc-ci.net/dpfc/2026/progressions/MATHS%20-%20Progressions%20%202025-2026.pdf"
+}
