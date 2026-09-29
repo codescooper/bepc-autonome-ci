@@ -1,102 +1,279 @@
 {
+  "schema_version": "0.3.0",
   "subject": "mathematiques",
   "level": "3e",
-  "school_year_reference": "2025-2026",
-  "annual_hours": 120,
-  "hours_per_week": 4,
-  "status": "official_verified",
-  "lessons": [
-    "Calcul littéral",
-    "Propriétés de Thalès dans un triangle",
-    "Racines carrées",
-    "Triangle rectangle",
-    "Calcul numérique",
-    "Angles inscrits",
-    "Vecteurs",
-    "Équations et inéquations dans ℝ",
-    "Coordonnées de vecteurs",
-    "Équations de droites",
-    "Statistique",
-    "Équations et inéquations dans ℝ × ℝ",
-    "Applications affines",
-    "Pyramides et cônes"
+  "program_status": "official_verified",
+  "current_progression": {
+    "school_year": "2026-2027",
+    "annual_hours": 128,
+    "hours_per_week": 4,
+    "revision_hours": 8,
+    "source_url": "https://dpfc-ci.net/dpfc/2027/progressions/MATHEMATIQUES%20-%20Progressions%20annuelles_DPFC_2026_2027.pdf",
+    "lessons": [
+      {
+        "order": 1,
+        "title": "Calcul littéral",
+        "hours": 9,
+        "competency": "C1",
+        "theme": "Calculs algébriques"
+      },
+      {
+        "order": 2,
+        "title": "Propriétés de Thalès dans un triangle",
+        "hours": 7,
+        "competency": "C3",
+        "theme": "Géométrie du plan"
+      },
+      {
+        "order": 3,
+        "title": "Racines carrées",
+        "hours": 7,
+        "competency": "C1",
+        "theme": "Calculs algébriques"
+      },
+      {
+        "order": 4,
+        "title": "Triangle rectangle",
+        "hours": 11,
+        "competency": "C3",
+        "theme": "Géométrie du plan"
+      },
+      {
+        "order": 5,
+        "title": "Calcul numérique",
+        "hours": 11,
+        "competency": "C1",
+        "theme": "Calculs algébriques"
+      },
+      {
+        "order": 6,
+        "title": "Angles inscrits",
+        "hours": 5,
+        "competency": "C3",
+        "theme": "Géométrie du plan"
+      },
+      {
+        "order": 7,
+        "title": "Vecteurs",
+        "hours": 7,
+        "competency": "C3",
+        "theme": "Géométrie du plan"
+      },
+      {
+        "order": 8,
+        "title": "Équations et inéquations dans ℝ",
+        "hours": 5,
+        "competency": "C1",
+        "theme": "Calculs algébriques"
+      },
+      {
+        "order": 9,
+        "title": "Pyramides et cônes",
+        "hours": 9,
+        "competency": "C3",
+        "theme": "Géométrie de l’espace"
+      },
+      {
+        "order": 10,
+        "title": "Statistique",
+        "hours": 9,
+        "competency": "C2",
+        "theme": "Organisation et traitement des données"
+      },
+      {
+        "order": 11,
+        "title": "Coordonnées de vecteurs",
+        "hours": 7,
+        "competency": "C3",
+        "theme": "Géométrie du plan"
+      },
+      {
+        "order": 12,
+        "title": "Équations de droites",
+        "hours": 9,
+        "competency": "C3",
+        "theme": "Géométrie du plan"
+      },
+      {
+        "order": 13,
+        "title": "Applications affines",
+        "hours": 5,
+        "competency": "C1",
+        "theme": "Fonctions"
+      },
+      {
+        "order": 14,
+        "title": "Équations et inéquations dans ℝ × ℝ",
+        "hours": 5,
+        "competency": "C1",
+        "theme": "Calculs algébriques"
+      }
+    ]
+  },
+  "curriculum_competencies": [
+    {
+      "id": "C1",
+      "label": "Traiter une situation relative aux calculs algébriques et aux fonctions"
+    },
+    {
+      "id": "C2",
+      "label": "Traiter une situation relative à la modélisation de phénomènes aléatoires, à l’organisation et au traitement des données"
+    },
+    {
+      "id": "C3",
+      "label": "Traiter une situation relative à la géométrie du plan, à la géométrie de l’espace et aux transformations du plan"
+    }
   ],
-  "source_url": "https://dpfc-ci.net/dpfc/2026/progressions/MATHS%20-%20Progressions%20%202025-2026.pdf",
-  "program_structure": {
-    "competencies": [
-      {
-        "id": "C1",
-        "label": "Traiter une situation relative aux calculs algébriques et aux fonctions",
-        "themes": [
-          "Activité numérique",
-          "Calcul littéral"
+  "bepc_exam_competencies": [
+    {
+      "id": "E1",
+      "scope": "Distances, triangle rectangle, Thalès, vecteurs, coordonnées, équations de droites, angles inscrits, pyramides et cônes"
+    },
+    {
+      "id": "E2",
+      "scope": "Nombres réels, calcul littéral, équations/inéquations dans ℝ et ℝ×ℝ, organisation de données"
+    }
+  ],
+  "taxonomy": [
+    "connaissance",
+    "compréhension",
+    "application",
+    "traitement de situation"
+  ],
+  "detailed_units": {
+    "Calcul littéral": {
+      "skills": [
+        [
+          "Identifier",
+          "un polynôme"
+        ],
+        [
+          "Connaître",
+          "la définition d’une fraction rationnelle"
+        ],
+        [
+          "Connaître",
+          "les propriétés d’égalité de quotients, nombres inverses, puissances à exposant entier relatif, produit nul/non nul et nombres de même carré"
+        ],
+        [
+          "Calculer",
+          "avec les puissances; somme, différence, produit et quotient de polynômes; valeur numérique d’une expression littérale"
+        ],
+        [
+          "Développer",
+          "une expression littérale"
+        ],
+        [
+          "Réduire",
+          "une expression littérale"
+        ],
+        [
+          "Factoriser",
+          "une expression littérale"
+        ],
+        [
+          "Déterminer",
+          "les valeurs pour lesquelles une fraction rationnelle existe"
+        ],
+        [
+          "Simplifier",
+          "une fraction rationnelle"
+        ],
+        [
+          "Traiter une situation",
+          "faisant appel au calcul littéral"
         ]
-      },
-      {
-        "id": "C2",
-        "label": "Traiter une situation relative à la modélisation de phénomènes aléatoires, à l’organisation et au traitement de données",
-        "themes": [
-          "Organisation des données"
+      ]
+    },
+    "Racines carrées": {
+      "skills": [
+        [
+          "Identifier",
+          "des nombres réels"
+        ],
+        [
+          "Connaître",
+          "définition de racine carrée, valeur absolue et propriétés des racines carrées"
+        ],
+        [
+          "Noter",
+          "une racine carrée, ℝ et une valeur absolue"
+        ],
+        [
+          "Écrire",
+          "un quotient sans radical au dénominateur"
+        ],
+        [
+          "Calculer",
+          "sommes, différences, produits, quotients contenant des racines carrées et racines carrées de puissances"
+        ],
+        [
+          "Traiter une situation",
+          "faisant appel aux racines carrées"
         ]
-      },
-      {
-        "id": "C3",
-        "label": "Traiter une situation relative à la géométrie du plan, à la géométrie de l’espace et aux transformations du plan",
-        "themes": [
-          "Configuration du plan",
-          "Géométrie analytique",
-          "Configurations de l’espace"
+      ]
+    },
+    "Propriétés de Thalès dans un triangle": {
+      "skills": [
+        [
+          "Connaître",
+          "propriété de Thalès, réciproque et conséquence"
+        ],
+        [
+          "Reconnaître",
+          "une configuration de Thalès et deux quotients égaux"
+        ],
+        [
+          "Partager",
+          "un segment en segments de même longueur"
+        ],
+        [
+          "Calculer",
+          "des distances"
+        ],
+        [
+          "Démontrer",
+          "le parallélisme de droites"
+        ],
+        [
+          "Traiter une situation",
+          "faisant appel aux propriétés de Thalès"
         ]
-      }
-    ],
-    "taxonomy": [
-      "connaissance",
-      "compréhension",
-      "application",
-      "traitement de situation"
-    ]
+      ]
+    },
+    "Triangle rectangle": {
+      "skills": [
+        [
+          "Connaître",
+          "Pythagore, réciproque, propriété métrique et relations trigonométriques"
+        ],
+        [
+          "Construire",
+          "un segment de longueur √a"
+        ],
+        [
+          "Calculer",
+          "cosinus, sinus ou tangente d’un angle aigu"
+        ],
+        [
+          "Utiliser",
+          "Pythagore et la trigonométrie pour calculer des longueurs ou angles"
+        ],
+        [
+          "Justifier",
+          "qu’un triangle est rectangle"
+        ],
+        [
+          "Traiter une situation",
+          "faisant appel au triangle rectangle"
+        ]
+      ]
+    }
   },
-  "skill_examples": {
-    "Racines carrées": [
-      {
-        "ability": "Identifier",
-        "content": "une racine carrée d’un nombre positif, des nombres réels, la valeur absolue d’un nombre réel"
-      },
-      {
-        "ability": "Connaître",
-        "content": "les propriétés relatives aux racines carrées"
-      },
-      {
-        "ability": "Écrire",
-        "content": "un quotient sans radical au dénominateur"
-      },
-      {
-        "ability": "Calculer",
-        "content": "des opérations contenant des racines carrées"
-      },
-      {
-        "ability": "Traiter une situation",
-        "content": "faisant appel aux racines carrées"
-      }
-    ],
-    "Équations et inéquations dans ℝ": [
-      {
-        "ability": "Résoudre",
-        "content": "des équations et inéquations du premier degré dans ℝ"
-      },
-      {
-        "ability": "Utiliser",
-        "content": "des intervalles pour donner l’ensemble des solutions d’une inéquation"
-      },
-      {
-        "ability": "Traiter une situation",
-        "content": "faisant appel aux équations ou inéquations du premier degré dans ℝ"
-      }
-    ]
-  },
-  "program_source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Mathematiques/Maths_3e.pdf",
+  "program_source_url": "https://dpfc-ci.net/dpfc/programmes/maths/04.%20Prog%20%C3%89duct%20MATHS%203e%20CND%200923.pdf",
   "verification_notes": [
-    "Programme éducatif et progression annuelle sont conservés séparément.",
-    "Les habiletés seront complétées leçon par leçon lors des passes suivantes."
+    "Progression annuelle 2026-2027 vérifiée sur la publication DPFC.",
+    "Les compétences curriculaires (3) et les compétences regroupées du format BEPC (2) sont volontairement distinctes.",
+    "Les unités détaillées sont enrichies progressivement depuis les tableaux Habiletés/Contenus officiels."
   ]
 }
