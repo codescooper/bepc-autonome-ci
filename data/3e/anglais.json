@@ -1,0 +1,72 @@
+{
+  "subject": "anglais",
+  "level": "3e",
+  "status": "official_verified",
+  "units": [
+    {
+      "theme": "Life at school",
+      "lessons": [
+        "My last holidays",
+        "School memories",
+        "Work at school"
+      ]
+    },
+    {
+      "theme": "Women at work",
+      "lessons": [
+        "Rural women",
+        "Women’s rights and duties",
+        "Girls at school"
+      ]
+    },
+    {
+      "theme": "Travelling",
+      "lessons": [
+        "Means of transport",
+        "At the airport",
+        "Tourism"
+      ]
+    },
+    {
+      "theme": "Fashion",
+      "lessons": [
+        "Modern and traditional clothes",
+        "Fashion show",
+        "Cosmetics"
+      ]
+    },
+    {
+      "theme": "City or village",
+      "lessons": [
+        "City life",
+        "Village life",
+        "Rural exodus"
+      ]
+    },
+    {
+      "theme": "Human rights",
+      "lessons": [
+        "My rights",
+        "My duties",
+        "Tolerance"
+      ]
+    },
+    {
+      "theme": "Hygiene and health",
+      "lessons": [
+        "Endemic diseases",
+        "Hygiene at school",
+        "HIV/AIDS"
+      ]
+    },
+    {
+      "theme": "Information and Communication Technologies",
+      "lessons": [
+        "The computer",
+        "The telephone",
+        "The Internet"
+      ]
+    }
+  ],
+  "source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_3eme.pdf"
+}
