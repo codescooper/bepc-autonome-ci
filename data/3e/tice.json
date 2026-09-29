@@ -1,0 +1,24 @@
+{
+  "subject": "tice",
+  "level": "3e",
+  "status": "official_verified",
+  "lessons": [
+    "Découverte d’un réseau informatique",
+    "Initiation à l’utilisation d’un logiciel de dessin",
+    "Notion de programme",
+    "Écrire et exécuter un programme",
+    "Vérifier si un programme accomplit la tâche prévue",
+    "Corriger un programme",
+    "Projet et activités pratiques STIM : production de jeu éducatif",
+    "Utilisation de document modèle",
+    "Le publipostage",
+    "Traitement de données statistiques avec un tableur",
+    "Traitement graphique des données avec un tableur",
+    "Découverte de l’environnement d’un logiciel de présentation",
+    "Conception d’une diapositive dynamique de présentation"
+  ],
+  "source": {
+    "id": "dpfc-tice-3e-2024-2025",
+    "url": "https://dpfc-ci.net/progressions/2024-2025/tice/Progressions_Annuelle_TICE_2024_expérimentale.pdf"
+  }
+}
