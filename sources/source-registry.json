@@ -1,0 +1,42 @@
+{
+  "updated_at": "2026-09-29",
+  "sources": [
+    {
+      "id": "dpfc-programmes",
+      "authority": "DPFC",
+      "type": "programmes",
+      "url": "https://dpfc-ci.net/?page_id=283"
+    },
+    {
+      "id": "dpfc-progressions-current",
+      "authority": "DPFC",
+      "type": "progressions_annuelles",
+      "school_year": "2026-2027",
+      "url": "https://dpfc-ci.net/"
+    },
+    {
+      "id": "dpfc-evaluation-formats",
+      "authority": "DPFC",
+      "type": "formats_evaluation",
+      "url": "https://dpfc-ci.net/?page_id=69"
+    },
+    {
+      "id": "dpfc-situation-bank",
+      "authority": "DPFC",
+      "type": "banque_situations",
+      "url": "https://dpfc-ci.net/?page_id=768"
+    },
+    {
+      "id": "dpfc-deep-2025",
+      "authority": "DPFC",
+      "type": "modules_formation",
+      "url": "https://dpfc-ci.net/?page_id=5240"
+    },
+    {
+      "id": "ecole-ci",
+      "authority": "MENA",
+      "type": "plateforme_pedagogique",
+      "url": "https://ecole-ci.org/"
+    }
+  ]
+}
