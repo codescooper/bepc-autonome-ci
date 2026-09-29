@@ -1,0 +1,52 @@
+{
+  "subject": "francais",
+  "level": "3e",
+  "hours_per_week": 6,
+  "annual_hours": 192,
+  "status": "official_verified",
+  "activities": [
+    {
+      "activity": "Expression orale",
+      "lessons": [
+        "Le dialogue oral",
+        "L’exposé oral",
+        "Le débat"
+      ]
+    },
+    {
+      "activity": "Lecture",
+      "lessons": [
+        "Œuvre intégrale",
+        "Textes autonomes : texte argumentatif",
+        "Textes autonomes : article de journal"
+      ]
+    },
+    {
+      "activity": "Expression écrite",
+      "lessons": [
+        "Le texte argumentatif",
+        "L’article de journal",
+        "Le résumé du texte argumentatif"
+      ]
+    },
+    {
+      "activity": "Grammaire",
+      "lessons": [
+        "La communication",
+        "La pronominalisation",
+        "L’adverbe et le groupe adverbial",
+        "L’infinitif et le participe",
+        "La coordination",
+        "L’expression des circonstances"
+      ]
+    },
+    {
+      "activity": "Orthographe",
+      "lessons": [
+        "Orthographe lexicale",
+        "Orthographe grammaticale"
+      ]
+    }
+  ],
+  "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+}
