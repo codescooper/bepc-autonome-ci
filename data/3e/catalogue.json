@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.1.0",
+  "country": "CI",
+  "level": "3e",
+  "goal": "BEPC",
+  "subjects": [
+    {
+      "id": "francais",
+      "label": "Français",
+      "status": "official_verified"
+    },
+    {
+      "id": "mathematiques",
+      "label": "Mathématiques",
+      "status": "official_verified"
+    },
+    {
+      "id": "physique-chimie",
+      "label": "Physique-Chimie",
+      "status": "official_verified"
+    },
+    {
+      "id": "svt",
+      "label": "Sciences de la vie et de la terre",
+      "status": "official_verified"
+    },
+    {
+      "id": "histoire-geographie",
+      "label": "Histoire-Géographie",
+      "status": "official_verified"
+    },
+    {
+      "id": "anglais",
+      "label": "Anglais",
+      "status": "official_verified"
+    },
+    {
+      "id": "edhc",
+      "label": "EDHC",
+      "status": "official_verified"
+    },
+    {
+      "id": "tice",
+      "label": "TICE",
+      "status": "official_verified"
+    },
+    {
+      "id": "espagnol",
+      "label": "Espagnol",
+      "status": "official_verified",
+      "optional": true
+    },
+    {
+      "id": "allemand",
+      "label": "Allemand",
+      "status": "official_verified",
+      "optional": true
+    },
+    {
+      "id": "eps",
+      "label": "EPS",
+      "status": "official_verified"
+    },
+    {
+      "id": "arts-plastiques",
+      "label": "Arts plastiques",
+      "status": "official_verified"
+    },
+    {
+      "id": "education-musicale",
+      "label": "Éducation musicale",
+      "status": "official_verified"
+    }
+  ],
+  "sources": [
+    "dpfc-secondary-programs",
+    "mena-enseignement",
+    "ecole-ci"
+  ]
+}
