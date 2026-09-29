@@ -1,0 +1,103 @@
+{
+  "schema_version": "0.2.0",
+  "level": "3e",
+  "exam": "BEPC",
+  "status": "official_verified",
+  "subjects": {
+    "mathematiques": {
+      "competencies": [
+        "Calculs algébriques et fonctions",
+        "Modélisation de phénomènes aléatoires, organisation et traitement de données",
+        "Géométrie du plan, géométrie de l’espace et transformations du plan"
+      ],
+      "structure": [
+        {
+          "exercise": 1,
+          "type": "test_objectif",
+          "scope": "compétences 1 et 2"
+        },
+        {
+          "exercise": 2,
+          "type": "test_objectif",
+          "scope": "compétence 3"
+        },
+        {
+          "exercise": 3,
+          "type": "renforcement",
+          "scope": "compétence 1 ou 2"
+        },
+        {
+          "exercise": 4,
+          "type": "renforcement",
+          "scope": "compétence 3"
+        },
+        {
+          "exercise": 5,
+          "type": "approfondissement"
+        },
+        {
+          "exercise": 6,
+          "type": "situation_evaluation"
+        }
+      ],
+      "taxonomy": [
+        "connaissance",
+        "compréhension",
+        "application",
+        "traitement de situation"
+      ],
+      "source_url": "https://dpfc-ci.net/formats_evaluations/maths/Format%20de%20l%27%C3%A9preuve%20du%20BEPC%20en%20maths.pdf"
+    },
+    "anglais": {
+      "duration_minutes": 120,
+      "sections": [
+        {
+          "name": "Reading",
+          "points": 8
+        },
+        {
+          "name": "Language in Use"
+        },
+        {
+          "name": "Writing"
+        }
+      ],
+      "source_url": "https://dpfc-ci.net/wp-content/uploads/2022/07/Modules-de-Formation-DEEP-2022_ANGLAIS.pdf"
+    },
+    "physique-chimie": {
+      "duration_minutes": 120,
+      "total_points": 20,
+      "physics_points": 12,
+      "chemistry_points": 8,
+      "exercise_count": 3,
+      "exercise_1": {
+        "type": "tests objectifs et réponses courtes",
+        "taxonomy": [
+          "connaissance",
+          "compréhension",
+          "application"
+        ]
+      },
+      "source_url": "https://dpfc-ci.net/modules_dpfc/modules_2024/secondaire/Physique-Chimie%20-%20Module%20de%20formation%202024.pdf"
+    },
+    "histoire-geographie": {
+      "duration_minutes": 120,
+      "parts": [
+        {
+          "type": "test_objectif",
+          "points": 4
+        },
+        {
+          "type": "test_subjectif_commentaire_ou_situation",
+          "points": 10
+        },
+        {
+          "type": "activite_construction",
+          "points": 6
+        }
+      ],
+      "note": "Le commentaire de document et la situation alternent entre histoire et géographie; le test objectif couvre les deux.",
+      "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/2020-2021/general/enseignants/Modules%20Formation%202020_%20Hist%20G%C3%A9o.pdf"
+    }
+  }
+}
