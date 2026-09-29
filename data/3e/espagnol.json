@@ -1,0 +1,18 @@
+{
+  "subject": "espagnol",
+  "level": "3e",
+  "role": "LV2",
+  "hours_per_week": 3,
+  "annual_hours": 96,
+  "status": "official_verified",
+  "lessons": [
+    "La découverte du monde hispanique",
+    "La présentation des civilités",
+    "L’échange d’information",
+    "L’expression d’opinion",
+    "L’expression des goûts et des préférences",
+    "L’expression des sentiments",
+    "L’expression de l’ordre"
+  ],
+  "source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/Espagnol/ESPAGNOL_3eme.pdf"
+}
