@@ -1,0 +1,39 @@
+{
+  "subject": "svt",
+  "level": "3e",
+  "status": "official_verified",
+  "competencies": [
+    {
+      "title": "Nutrition chez l’Homme",
+      "lessons": [
+        "Les aliments et l’Homme",
+        "La digestion des aliments",
+        "Le sang",
+        "La transfusion sanguine",
+        "La circulation sanguine"
+      ]
+    },
+    {
+      "title": "Reproduction humaine et infection au VIH",
+      "lessons": [
+        "Les dangers liés aux grossesses précoces et les moyens de prévention",
+        "L’infection due au VIH"
+      ]
+    },
+    {
+      "title": "Relations sols-plantes",
+      "lessons": [
+        "Les caractéristiques d’un sol fertile",
+        "Les relations sols-plantes"
+      ]
+    },
+    {
+      "title": "Dégradation, protection et amélioration des sols",
+      "lessons": [
+        "La dégradation des sols",
+        "La protection et l’amélioration des sols"
+      ]
+    }
+  ],
+  "source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/SVT/SVT_3eme.pdf"
+}
