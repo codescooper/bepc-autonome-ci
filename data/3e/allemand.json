@@ -1,0 +1,22 @@
+{
+  "subject": "allemand",
+  "level": "3e",
+  "role": "LV2",
+  "hours_per_week": 3,
+  "annual_hours": 96,
+  "status": "official_verified",
+  "core_lessons": [
+    "Les préparatifs d’un voyage",
+    "Un séjour dans une famille allemande"
+  ],
+  "annual_units": [
+    "Einladung nach Deutschland",
+    "Willkommen in Deutschland",
+    "Bei Familie Rodeck",
+    "Jugendliche in Deutschland",
+    "Auf nach Köln",
+    "Afrika in Deutschland",
+    "Besuch in Berlin"
+  ],
+  "source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf"
+}
