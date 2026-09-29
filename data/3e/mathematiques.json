@@ -21,5 +21,82 @@
     "Applications affines",
     "Pyramides et cônes"
   ],
-  "source_url": "https://dpfc-ci.net/dpfc/2026/progressions/MATHS%20-%20Progressions%20%202025-2026.pdf"
+  "source_url": "https://dpfc-ci.net/dpfc/2026/progressions/MATHS%20-%20Progressions%20%202025-2026.pdf",
+  "program_structure": {
+    "competencies": [
+      {
+        "id": "C1",
+        "label": "Traiter une situation relative aux calculs algébriques et aux fonctions",
+        "themes": [
+          "Activité numérique",
+          "Calcul littéral"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Traiter une situation relative à la modélisation de phénomènes aléatoires, à l’organisation et au traitement de données",
+        "themes": [
+          "Organisation des données"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Traiter une situation relative à la géométrie du plan, à la géométrie de l’espace et aux transformations du plan",
+        "themes": [
+          "Configuration du plan",
+          "Géométrie analytique",
+          "Configurations de l’espace"
+        ]
+      }
+    ],
+    "taxonomy": [
+      "connaissance",
+      "compréhension",
+      "application",
+      "traitement de situation"
+    ]
+  },
+  "skill_examples": {
+    "Racines carrées": [
+      {
+        "ability": "Identifier",
+        "content": "une racine carrée d’un nombre positif, des nombres réels, la valeur absolue d’un nombre réel"
+      },
+      {
+        "ability": "Connaître",
+        "content": "les propriétés relatives aux racines carrées"
+      },
+      {
+        "ability": "Écrire",
+        "content": "un quotient sans radical au dénominateur"
+      },
+      {
+        "ability": "Calculer",
+        "content": "des opérations contenant des racines carrées"
+      },
+      {
+        "ability": "Traiter une situation",
+        "content": "faisant appel aux racines carrées"
+      }
+    ],
+    "Équations et inéquations dans ℝ": [
+      {
+        "ability": "Résoudre",
+        "content": "des équations et inéquations du premier degré dans ℝ"
+      },
+      {
+        "ability": "Utiliser",
+        "content": "des intervalles pour donner l’ensemble des solutions d’une inéquation"
+      },
+      {
+        "ability": "Traiter une situation",
+        "content": "faisant appel aux équations ou inéquations du premier degré dans ℝ"
+      }
+    ]
+  },
+  "program_source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Mathematiques/Maths_3e.pdf",
+  "verification_notes": [
+    "Programme éducatif et progression annuelle sont conservés séparément.",
+    "Les habiletés seront complétées leçon par leçon lors des passes suivantes."
+  ]
 }
