@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1.0",
+  "scale": {
+    "unknown": 0,
+    "introduced": 1,
+    "developing": 2,
+    "mastered": 3
+  },
+  "rules": {
+    "lesson_mastery": "agrégation des scores d’habiletés; seuils à calibrer avec l’usage réel",
+    "remediation": "si une habileté échoue de façon répétée, inspecter d’abord ses prérequis directs",
+    "bepc_readiness": "calcul séparé de la progression scolaire; fondé sur couverture, maîtrise et entraînement au format d’épreuve"
+  },
+  "learner_record_example": {
+    "skill_id": "maths.equations-r.resoudre-equation",
+    "attempts": 0,
+    "correct": 0,
+    "mastery": 0,
+    "last_attempt": null,
+    "next_review": null
+  }
+}
