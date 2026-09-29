@@ -1,0 +1,143 @@
+{
+  "schema_version": "0.1.0",
+  "subject": "mathematiques",
+  "level": "3e",
+  "purpose": "adaptive_learning",
+  "nodes": [
+    {
+      "id": "calcul-litteral",
+      "prerequisites": [
+        "fractions-4e",
+        "puissances-4e"
+      ],
+      "unlocks": [
+        "racines-carrees",
+        "equations-r"
+      ]
+    },
+    {
+      "id": "racines-carrees",
+      "prerequisites": [
+        "calcul-litteral"
+      ],
+      "unlocks": [
+        "calcul-numerique",
+        "triangle-rectangle"
+      ]
+    },
+    {
+      "id": "calcul-numerique",
+      "prerequisites": [
+        "racines-carrees"
+      ],
+      "unlocks": [
+        "equations-r"
+      ]
+    },
+    {
+      "id": "equations-r",
+      "prerequisites": [
+        "calcul-litteral",
+        "calcul-numerique"
+      ],
+      "unlocks": [
+        "applications-affines",
+        "equations-rxr"
+      ]
+    },
+    {
+      "id": "applications-affines",
+      "prerequisites": [
+        "equations-r",
+        "proportionnalite-4e"
+      ],
+      "unlocks": [
+        "equations-droites"
+      ]
+    },
+    {
+      "id": "statistique",
+      "prerequisites": [
+        "statistique-4e",
+        "proportionnalite-4e"
+      ],
+      "unlocks": []
+    },
+    {
+      "id": "triangle-rectangle",
+      "prerequisites": [
+        "pythagore-4e",
+        "racines-carrees"
+      ],
+      "unlocks": [
+        "thalès"
+      ]
+    },
+    {
+      "id": "thales",
+      "prerequisites": [
+        "proportionnalite-4e",
+        "triangle-4e"
+      ],
+      "unlocks": [
+        "vecteurs"
+      ]
+    },
+    {
+      "id": "angles-inscrits",
+      "prerequisites": [
+        "angles-4e",
+        "cercle-4e"
+      ],
+      "unlocks": []
+    },
+    {
+      "id": "vecteurs",
+      "prerequisites": [
+        "vecteurs-4e",
+        "thales"
+      ],
+      "unlocks": [
+        "coordonnees-vecteurs"
+      ]
+    },
+    {
+      "id": "coordonnees-vecteurs",
+      "prerequisites": [
+        "vecteurs",
+        "repere-4e"
+      ],
+      "unlocks": [
+        "equations-droites"
+      ]
+    },
+    {
+      "id": "equations-droites",
+      "prerequisites": [
+        "coordonnees-vecteurs",
+        "applications-affines"
+      ],
+      "unlocks": [
+        "equations-rxr"
+      ]
+    },
+    {
+      "id": "pyramides-cones",
+      "prerequisites": [
+        "perspective-cavaliere-4e",
+        "aires-volumes-4e",
+        "triangle-rectangle"
+      ],
+      "unlocks": []
+    },
+    {
+      "id": "equations-rxr",
+      "prerequisites": [
+        "equations-r",
+        "equations-droites"
+      ],
+      "unlocks": []
+    }
+  ],
+  "note": "Les dépendances pédagogiques sont une couche de conception du projet dérivée des contenus officiels; elles ne sont pas présentées comme une progression officielle DPFC."
+}
