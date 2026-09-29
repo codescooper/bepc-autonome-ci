@@ -6,38 +6,65 @@
   "subjects": {
     "mathematiques": {
       "competencies": [
-        "Calculs algébriques et fonctions",
-        "Modélisation de phénomènes aléatoires, organisation et traitement de données",
-        "Géométrie du plan, géométrie de l’espace et transformations du plan"
+        "Compétence d’épreuve 1 : distances, triangle rectangle, propriétés de Thalès, vecteurs, coordonnées d’un vecteur, équations de droites, angles inscrits, pyramides et cônes",
+        "Compétence d’épreuve 2 : calculs dans ℝ, calcul littéral, équations et inéquations du premier degré dans ℝ et ℝ×ℝ, organisation de données"
       ],
       "structure": [
         {
           "exercise": 1,
           "type": "test_objectif",
-          "scope": "compétences 1 et 2"
+          "scope": "compétence d’épreuve 2",
+          "taxonomy_levels": [
+            1,
+            2
+          ]
         },
         {
           "exercise": 2,
           "type": "test_objectif",
-          "scope": "compétence 3"
+          "scope": "compétence d’épreuve 1",
+          "taxonomy_levels": [
+            1,
+            2
+          ]
         },
         {
           "exercise": 3,
           "type": "renforcement",
-          "scope": "compétence 1 ou 2"
+          "scope": "compétence d’épreuve 2",
+          "taxonomy_levels": [
+            1,
+            2,
+            3
+          ]
         },
         {
           "exercise": 4,
           "type": "renforcement",
-          "scope": "compétence 3"
+          "scope": "compétence d’épreuve 1",
+          "taxonomy_levels": [
+            1,
+            2,
+            3
+          ]
         },
         {
           "exercise": 5,
-          "type": "approfondissement"
+          "type": "approfondissement",
+          "scope": "plusieurs habiletés de plusieurs leçons",
+          "taxonomy_levels": [
+            1,
+            2,
+            3
+          ]
         },
         {
           "exercise": 6,
-          "type": "situation_evaluation"
+          "type": "situation_evaluation",
+          "scope": "traitement de situation",
+          "taxonomy_levels": [
+            4
+          ]
         }
       ],
       "taxonomy": [
@@ -46,7 +73,13 @@
         "application",
         "traitement de situation"
       ],
-      "source_url": "https://dpfc-ci.net/formats_evaluations/maths/Format%20de%20l%27%C3%A9preuve%20du%20BEPC%20en%20maths.pdf"
+      "source_url": "https://dpfc-ci.net/modules_dpfc/modules_2023/module_2023_secondaire/MATHS_Module%20de%20formation%20des%20enseignants%20du%20priv%C3%A9%202023.pdf",
+      "rules": [
+        "Les six exercices portent sur des leçons différentes.",
+        "L’exercice d’approfondissement porte sur une compétence différente de la situation d’évaluation.",
+        "Les exercices de renforcement et d’approfondissement ne sont pas contextualisés.",
+        "L’épreuve doit être équilibrée entre les deux compétences d’épreuve."
+      ]
     },
     "anglais": {
       "duration_minutes": 120,
