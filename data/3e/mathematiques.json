@@ -143,130 +143,466 @@
   "detailed_units": {
     "Calcul littéral": {
       "skills": [
-        [
-          "Identifier",
-          "un polynôme"
-        ],
-        [
-          "Connaître",
-          "la définition d’une fraction rationnelle"
-        ],
-        [
-          "Connaître",
-          "les propriétés d’égalité de quotients, nombres inverses, puissances à exposant entier relatif, produit nul/non nul et nombres de même carré"
-        ],
-        [
-          "Calculer",
-          "avec les puissances; somme, différence, produit et quotient de polynômes; valeur numérique d’une expression littérale"
-        ],
-        [
-          "Développer",
-          "une expression littérale"
-        ],
-        [
-          "Réduire",
-          "une expression littérale"
-        ],
-        [
-          "Factoriser",
-          "une expression littérale"
-        ],
-        [
-          "Déterminer",
-          "les valeurs pour lesquelles une fraction rationnelle existe"
-        ],
-        [
-          "Simplifier",
-          "une fraction rationnelle"
-        ],
-        [
-          "Traiter une situation",
-          "faisant appel au calcul littéral"
-        ]
+        {
+          "ability": "Identifier",
+          "content": "un polynôme"
+        },
+        {
+          "ability": "Connaître",
+          "content": "la définition d’une fraction rationnelle"
+        },
+        {
+          "ability": "Connaître",
+          "content": "les propriétés d’égalité de quotients, nombres inverses, puissances à exposant entier relatif, produit nul/non nul et nombres de même carré"
+        },
+        {
+          "ability": "Calculer",
+          "content": "avec les puissances; somme, différence, produit et quotient de polynômes; valeur numérique d’une expression littérale"
+        },
+        {
+          "ability": "Développer",
+          "content": "une expression littérale"
+        },
+        {
+          "ability": "Réduire",
+          "content": "une expression littérale"
+        },
+        {
+          "ability": "Factoriser",
+          "content": "une expression littérale"
+        },
+        {
+          "ability": "Déterminer",
+          "content": "les valeurs pour lesquelles une fraction rationnelle existe"
+        },
+        {
+          "ability": "Simplifier",
+          "content": "une fraction rationnelle"
+        },
+        {
+          "ability": "Traiter une situation",
+          "content": "faisant appel au calcul littéral"
+        }
       ]
     },
     "Racines carrées": {
       "skills": [
-        [
-          "Identifier",
-          "des nombres réels"
-        ],
-        [
-          "Connaître",
-          "définition de racine carrée, valeur absolue et propriétés des racines carrées"
-        ],
-        [
-          "Noter",
-          "une racine carrée, ℝ et une valeur absolue"
-        ],
-        [
-          "Écrire",
-          "un quotient sans radical au dénominateur"
-        ],
-        [
-          "Calculer",
-          "sommes, différences, produits, quotients contenant des racines carrées et racines carrées de puissances"
-        ],
-        [
-          "Traiter une situation",
-          "faisant appel aux racines carrées"
-        ]
+        {
+          "ability": "Identifier",
+          "content": "des nombres réels"
+        },
+        {
+          "ability": "Connaître",
+          "content": "définition de racine carrée, valeur absolue et propriétés des racines carrées"
+        },
+        {
+          "ability": "Noter",
+          "content": "une racine carrée, ℝ et une valeur absolue"
+        },
+        {
+          "ability": "Écrire",
+          "content": "un quotient sans radical au dénominateur"
+        },
+        {
+          "ability": "Calculer",
+          "content": "sommes, différences, produits, quotients contenant des racines carrées et racines carrées de puissances"
+        },
+        {
+          "ability": "Traiter une situation",
+          "content": "faisant appel aux racines carrées"
+        }
       ]
     },
     "Propriétés de Thalès dans un triangle": {
       "skills": [
-        [
-          "Connaître",
-          "propriété de Thalès, réciproque et conséquence"
-        ],
-        [
-          "Reconnaître",
-          "une configuration de Thalès et deux quotients égaux"
-        ],
-        [
-          "Partager",
-          "un segment en segments de même longueur"
-        ],
-        [
-          "Calculer",
-          "des distances"
-        ],
-        [
-          "Démontrer",
-          "le parallélisme de droites"
-        ],
-        [
-          "Traiter une situation",
-          "faisant appel aux propriétés de Thalès"
-        ]
+        {
+          "ability": "Connaître",
+          "content": "propriété de Thalès, réciproque et conséquence"
+        },
+        {
+          "ability": "Reconnaître",
+          "content": "une configuration de Thalès et deux quotients égaux"
+        },
+        {
+          "ability": "Partager",
+          "content": "un segment en segments de même longueur"
+        },
+        {
+          "ability": "Calculer",
+          "content": "des distances"
+        },
+        {
+          "ability": "Démontrer",
+          "content": "le parallélisme de droites"
+        },
+        {
+          "ability": "Traiter une situation",
+          "content": "faisant appel aux propriétés de Thalès"
+        }
       ]
     },
     "Triangle rectangle": {
       "skills": [
-        [
-          "Connaître",
-          "Pythagore, réciproque, propriété métrique et relations trigonométriques"
-        ],
-        [
-          "Construire",
-          "un segment de longueur √a"
-        ],
-        [
-          "Calculer",
-          "cosinus, sinus ou tangente d’un angle aigu"
-        ],
-        [
-          "Utiliser",
-          "Pythagore et la trigonométrie pour calculer des longueurs ou angles"
-        ],
-        [
-          "Justifier",
-          "qu’un triangle est rectangle"
-        ],
-        [
-          "Traiter une situation",
-          "faisant appel au triangle rectangle"
-        ]
+        {
+          "ability": "Connaître",
+          "content": "Pythagore, réciproque, propriété métrique et relations trigonométriques"
+        },
+        {
+          "ability": "Construire",
+          "content": "un segment de longueur √a"
+        },
+        {
+          "ability": "Calculer",
+          "content": "cosinus, sinus ou tangente d’un angle aigu"
+        },
+        {
+          "ability": "Utiliser",
+          "content": "Pythagore et la trigonométrie pour calculer des longueurs ou angles"
+        },
+        {
+          "ability": "Justifier",
+          "content": "qu’un triangle est rectangle"
+        },
+        {
+          "ability": "Traiter une situation",
+          "content": "faisant appel au triangle rectangle"
+        }
+      ]
+    },
+    "Calcul numérique": {
+      "skills": [
+        {
+          "ability": "Identifier",
+          "content": "un intervalle"
+        },
+        {
+          "ability": "Connaître",
+          "content": "propriétés relatives aux inégalités et opérations; centre et amplitude d’un intervalle"
+        },
+        {
+          "ability": "Noter et lire",
+          "content": "un intervalle"
+        },
+        {
+          "ability": "Traduire",
+          "content": "intervalle ↔ inégalités"
+        },
+        {
+          "ability": "Représenter",
+          "content": "intervalle, intersection ou réunion sur une droite graduée"
+        },
+        {
+          "ability": "Comparer",
+          "content": "des nombres par différence, carrés ou inverses selon le cas"
+        },
+        {
+          "ability": "Encadrer",
+          "content": "nombres réels, opposés, inverses, sommes, différences, produits et quotients"
+        },
+        {
+          "ability": "Déterminer",
+          "content": "centre, amplitude, intersection/réunion et arrondis de racines carrées"
+        },
+        {
+          "ability": "Traiter une situation",
+          "content": "faisant appel aux calculs numériques"
+        }
+      ]
+    },
+    "Équations et inéquations dans ℝ": {
+      "skills": [
+        {
+          "ability": "Résoudre",
+          "content": "équations du premier degré et produit nul; inéquations du premier degré; système de deux inéquations dans ℝ"
+        },
+        {
+          "ability": "Utiliser",
+          "content": "des intervalles pour exprimer l’ensemble des solutions"
+        },
+        {
+          "ability": "Traiter une situation",
+          "content": "faisant appel aux équations ou inéquations du premier degré dans ℝ"
+        }
+      ]
+    },
+    "Équations et inéquations dans ℝ × ℝ": {
+      "skills": [
+        {
+          "ability": "Identifier",
+          "content": "équation, inéquation, système de deux équations ou système de deux inéquations du premier degré dans ℝ×ℝ"
+        },
+        {
+          "ability": "Vérifier",
+          "content": "si un couple de réels est solution d’une équation ou inéquation"
+        },
+        {
+          "ability": "Déterminer",
+          "content": "des couples solutions"
+        },
+        {
+          "ability": "Représenter",
+          "content": "graphiquement les ensembles solutions d’inéquations et systèmes d’inéquations"
+        },
+        {
+          "ability": "Résoudre",
+          "content": "un système de deux équations par substitution, combinaison ou graphiquement"
+        },
+        {
+          "ability": "Traduire",
+          "content": "un problème par une équation ou inéquation dans ℝ×ℝ"
+        },
+        {
+          "ability": "Traiter une situation",
+          "content": "faisant appel aux équations ou inéquations dans ℝ×ℝ"
+        }
+      ]
+    },
+    "Applications affines": {
+      "skills": [
+        {
+          "ability": "Identifier et reconnaître",
+          "content": "applications affines/linéaires et leurs représentations graphiques"
+        },
+        {
+          "ability": "Connaître",
+          "content": "définitions, propriétés graphiques, sens de variation et propriétés de linéarité"
+        },
+        {
+          "ability": "Déterminer",
+          "content": "expression, images/antécédents graphiques, application à partir de données et sens de variation"
+        },
+        {
+          "ability": "Calculer",
+          "content": "image ou antécédent"
+        },
+        {
+          "ability": "Représenter",
+          "content": "graphiquement une application affine ou linéaire"
+        },
+        {
+          "ability": "Utiliser",
+          "content": "sens de variation et propriétés de linéarité"
+        },
+        {
+          "ability": "Traduire",
+          "content": "une proportionnalité par une application linéaire"
+        },
+        {
+          "ability": "Justifier",
+          "content": "le sens de variation"
+        },
+        {
+          "ability": "Traiter une situation",
+          "content": "faisant appel aux applications affines"
+        }
+      ]
+    },
+    "Statistique": {
+      "skills": [
+        {
+          "ability": "Identifier",
+          "content": "classes de même amplitude et diagramme circulaire"
+        },
+        {
+          "ability": "Connaître",
+          "content": "médiane, effectifs/fréquences cumulés, classe modale et calcul de moyenne continue"
+        },
+        {
+          "ability": "Regrouper",
+          "content": "des données en classes de même amplitude"
+        },
+        {
+          "ability": "Dresser",
+          "content": "tableaux d’effectifs/fréquences cumulés"
+        },
+        {
+          "ability": "Déterminer",
+          "content": "médiane et classe modale"
+        },
+        {
+          "ability": "Calculer",
+          "content": "moyenne et médiane"
+        },
+        {
+          "ability": "Construire",
+          "content": "diagramme circulaire et polygones cumulés"
+        },
+        {
+          "ability": "Interpréter",
+          "content": "médiane, moyenne et diagramme circulaire"
+        },
+        {
+          "ability": "Traiter une situation",
+          "content": "faisant appel à la statistique"
+        }
+      ]
+    },
+    "Angles inscrits": {
+      "skills": [
+        {
+          "ability": "Identifier",
+          "content": "un angle inscrit dans un cercle"
+        },
+        {
+          "ability": "Connaître",
+          "content": "relations angle inscrit/angle au centre et angles inscrits interceptant le même arc"
+        },
+        {
+          "ability": "Reconnaître",
+          "content": "arc intercepté, angles inscrits de même arc et angle inscrit/angle au centre associés"
+        },
+        {
+          "ability": "Déterminer",
+          "content": "la mesure d’un angle"
+        },
+        {
+          "ability": "Justifier",
+          "content": "une égalité de mesures d’angles"
+        },
+        {
+          "ability": "Traiter une situation",
+          "content": "faisant appel aux angles inscrits"
+        }
+      ]
+    },
+    "Vecteurs": {
+      "skills": [
+        {
+          "ability": "Identifier",
+          "content": "la différence de deux vecteurs"
+        },
+        {
+          "ability": "Connaître",
+          "content": "colinéarité, orthogonalité, produit par un réel, vecteur directeur et propriétés associées"
+        },
+        {
+          "ability": "Représenter",
+          "content": "vecteur, vecteurs égaux, sommes et différences"
+        },
+        {
+          "ability": "Construire",
+          "content": "un point défini par une égalité vectorielle"
+        },
+        {
+          "ability": "Réduire",
+          "content": "des sommes de vecteurs"
+        },
+        {
+          "ability": "Traduire",
+          "content": "langage géométrique ↔ égalités vectorielles"
+        },
+        {
+          "ability": "Démontrer",
+          "content": "colinéarité, alignement et parallélisme"
+        },
+        {
+          "ability": "Traiter une situation",
+          "content": "faisant appel aux vecteurs"
+        }
+      ]
+    },
+    "Coordonnées de vecteurs": {
+      "skills": [
+        {
+          "ability": "Identifier",
+          "content": "les différents repères du plan"
+        },
+        {
+          "ability": "Connaître",
+          "content": "coordonnées d’un vecteur, somme, produit par réel, milieu, égalité, orthogonalité, colinéarité et distance"
+        },
+        {
+          "ability": "Lire",
+          "content": "les coordonnées d’un vecteur"
+        },
+        {
+          "ability": "Calculer",
+          "content": "coordonnées d’un vecteur, milieu et distance de deux points"
+        },
+        {
+          "ability": "Démontrer",
+          "content": "colinéarité, parallélisme, alignement, orthogonalité et perpendicularité"
+        },
+        {
+          "ability": "Traiter une situation",
+          "content": "faisant appel aux coordonnées de vecteurs"
+        }
+      ]
+    },
+    "Équations de droites": {
+      "skills": [
+        {
+          "ability": "Identifier",
+          "content": "équation et coefficient directeur d’une droite"
+        },
+        {
+          "ability": "Connaître",
+          "content": "propriétés de parallélisme et perpendicularité"
+        },
+        {
+          "ability": "Déterminer",
+          "content": "équation d’une droite sous différentes contraintes et coefficient directeur"
+        },
+        {
+          "ability": "Vérifier",
+          "content": "l’appartenance d’un point à une droite"
+        },
+        {
+          "ability": "Construire",
+          "content": "une droite depuis son équation ou un point et son coefficient directeur"
+        },
+        {
+          "ability": "Calculer",
+          "content": "un coefficient directeur"
+        },
+        {
+          "ability": "Lire",
+          "content": "graphiquement un coefficient directeur"
+        },
+        {
+          "ability": "Justifier",
+          "content": "parallélisme ou perpendicularité"
+        },
+        {
+          "ability": "Traiter une situation",
+          "content": "faisant appel aux équations de droites"
+        }
+      ]
+    },
+    "Pyramides et cônes": {
+      "skills": [
+        {
+          "ability": "Identifier",
+          "content": "éléments, patrons, troncs et caractéristiques d’une pyramide régulière ou d’un cône de révolution"
+        },
+        {
+          "ability": "Connaître",
+          "content": "définitions, formules de volume/aire, relation de développement du cône et propriétés de réduction"
+        },
+        {
+          "ability": "Décrire",
+          "content": "pyramide régulière et cône de révolution"
+        },
+        {
+          "ability": "Construire",
+          "content": "leurs patrons"
+        },
+        {
+          "ability": "Réaliser",
+          "content": "une pyramide régulière ou un cône"
+        },
+        {
+          "ability": "Extraire",
+          "content": "une figure plane d’une représentation spatiale"
+        },
+        {
+          "ability": "Calculer",
+          "content": "volumes, aires, troncs et coefficient de réduction"
+        },
+        {
+          "ability": "Traiter une situation",
+          "content": "faisant appel aux pyramides régulières ou cônes de révolution"
+        }
       ]
     }
   },
@@ -275,5 +611,11 @@
     "Progression annuelle 2026-2027 vérifiée sur la publication DPFC.",
     "Les compétences curriculaires (3) et les compétences regroupées du format BEPC (2) sont volontairement distinctes.",
     "Les unités détaillées sont enrichies progressivement depuis les tableaux Habiletés/Contenus officiels."
-  ]
+  ],
+  "completeness": {
+    "lesson_count": 14,
+    "detailed_unit_count": 14,
+    "skills_status": "complete_from_official_program",
+    "last_verified": "2026-09-29"
+  }
 }
