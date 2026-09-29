@@ -1,0 +1,42 @@
+{
+  "subject": "physique-chimie",
+  "level": "3e",
+  "status": "official_verified",
+  "themes": [
+    {
+      "theme": "Optique",
+      "lessons": [
+        "Les lentilles",
+        "Les défauts de l’œil et leurs corrections"
+      ]
+    },
+    {
+      "theme": "Mécanique",
+      "lessons": [
+        "Masse et poids d’un corps",
+        "Les forces",
+        "Équilibre d’un solide soumis à deux forces",
+        "Travail et puissance mécaniques",
+        "Énergie mécanique"
+      ]
+    },
+    {
+      "theme": "Électricité",
+      "lessons": [
+        "Puissance et énergie électriques",
+        "Le conducteur ohmique"
+      ]
+    },
+    {
+      "theme": "Les réactions chimiques",
+      "lessons": [
+        "Électrolyse et synthèse de l’eau",
+        "Les alcanes",
+        "Oxydation des corps purs simples",
+        "Réduction des oxydes",
+        "Solutions acides, basiques et neutres"
+      ]
+    }
+  ],
+  "source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/Physique_Chimie/PHYSIQUE-CHIMIE_3eme.pdf"
+}
