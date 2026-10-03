@@ -17,5 +17,14 @@
     "La protection des parcs nationaux, des réserves forestières et la sauvegarde de l’environnement",
     "La gestion rationnelle de l’eau et la sauvegarde de la paix sociale"
   ],
-  "source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/EDHC/EDHC_3eme.pdf"
+  "source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/EDHC/EDHC_3eme.pdf",
+  "schema_version": "0.3.0",
+  "current_progression": {
+    "school_year": "2026-2027",
+    "source_url": "https://dpfc-ci.net/dpfc/2027/progressions/EDHC_PROGRESSIONS%20ANNUELLES_DPFC_2026-2027.pdf"
+  },
+  "completeness": {
+    "lessons": 13,
+    "progression_2026_2027": true
+  }
 }
