@@ -18,5 +18,15 @@
     "Afrika in Deutschland",
     "Besuch in Berlin"
   ],
-  "source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf"
+  "source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf",
+  "schema_version": "0.3.0",
+  "current_progression": {
+    "school_year": "2026-2027",
+    "source_url": "https://dpfc-ci.net/dpfc/2027/progressions/ALLEMAND_PROGRESSIONS%20NATIONALES_DPFC_2026-2027.pdf"
+  },
+  "completeness": {
+    "program": true,
+    "progression_2026_2027": true,
+    "deep_extraction": "pending_visual_pdf"
+  }
 }
