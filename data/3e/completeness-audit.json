@@ -1,0 +1,64 @@
+{
+  "school_year": "2026-2027",
+  "level": "3e",
+  "generated_on": "2026-10-03",
+  "subjects": [
+    [
+      "Mathématiques",
+      "complete_verified"
+    ],
+    [
+      "Français",
+      "verified_partial_depth"
+    ],
+    [
+      "Physique-Chimie",
+      "complete_verified"
+    ],
+    [
+      "SVT",
+      "complete_verified"
+    ],
+    [
+      "Histoire-Géographie",
+      "complete_verified"
+    ],
+    [
+      "Anglais",
+      "complete_verified"
+    ],
+    [
+      "EDHC",
+      "complete_verified"
+    ],
+    [
+      "Espagnol LV2",
+      "complete_verified"
+    ],
+    [
+      "Allemand LV2",
+      "verified_partial_depth"
+    ],
+    [
+      "TICE",
+      "legacy_or_experimental"
+    ],
+    [
+      "EPS",
+      "verified_partial_depth"
+    ],
+    [
+      "Arts plastiques",
+      "verified_partial_depth"
+    ],
+    [
+      "Éducation musicale",
+      "verified_partial_depth"
+    ]
+  ],
+  "notes": [
+    "complete_verified = programme et progression 2026-2027 structurés",
+    "verified_partial_depth = sources officielles vérifiées mais extraction fine encore partielle",
+    "TICE utilise actuellement une progression expérimentale plus ancienne et doit être revalidé pour 2026-2027"
+  ]
+}
