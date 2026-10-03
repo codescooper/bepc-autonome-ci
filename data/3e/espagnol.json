@@ -14,5 +14,17 @@
     "L’expression des sentiments",
     "L’expression de l’ordre"
   ],
-  "source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/Espagnol/ESPAGNOL_3eme.pdf"
+  "source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/Espagnol/ESPAGNOL_3eme.pdf",
+  "schema_version": "0.3.0",
+  "current_progression": {
+    "school_year": "2026-2027",
+    "manual": "HABLO ESPAÑOL — Editions SuperNova, 2024",
+    "source_url": "https://dpfc-ci.net/dpfc/2027/progressions/ESPAGNOL-PROGRESSIONS_DPFC_2026_2027.pdf"
+  },
+  "completeness": {
+    "lessons": 7,
+    "progression_2026_2027": true,
+    "language_functions": true,
+    "linguistic_resources": true
+  }
 }
