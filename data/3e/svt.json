@@ -1,39 +1,92 @@
 {
+  "schema_version": "0.3.0",
   "subject": "svt",
   "level": "3e",
   "status": "official_verified",
+  "current_progression": {
+    "school_year": "2026-2027",
+    "weeks": 32,
+    "source_url": "https://dpfc-ci.net/dpfc/2027/progressions/SVT%20Progressions%20annuelles_DPFC_2026_2027.pdf"
+  },
   "competencies": [
     {
-      "title": "Nutrition chez l’Homme",
+      "id": "C1",
+      "label": "Traiter une situation relative à la nutrition chez l’Homme",
       "lessons": [
-        "Les aliments et l’Homme",
-        "La digestion des aliments",
-        "Le sang",
-        "La transfusion sanguine",
-        "La circulation sanguine"
+        [
+          "Les aliments et l’Homme",
+          3
+        ],
+        [
+          "La digestion des aliments",
+          3
+        ],
+        [
+          "Le sang",
+          2
+        ],
+        [
+          "La transfusion sanguine",
+          2
+        ],
+        [
+          "La circulation sanguine",
+          2
+        ]
       ]
     },
     {
-      "title": "Reproduction humaine et infection au VIH",
+      "id": "C2",
+      "label": "Traiter une situation en rapport avec la reproduction humaine et l’infection au VIH",
       "lessons": [
-        "Les dangers liés aux grossesses précoces et les moyens de prévention",
-        "L’infection due au VIH"
+        [
+          "Les grossesses précoces et les moyens de prévention",
+          2
+        ],
+        [
+          "L’infection au VIH",
+          3
+        ]
       ]
     },
     {
-      "title": "Relations sols-plantes",
+      "id": "C3",
+      "label": "Traiter une situation en rapport avec les relations sols-plantes",
       "lessons": [
-        "Les caractéristiques d’un sol fertile",
-        "Les relations sols-plantes"
+        [
+          "Les caractéristiques d’un sol",
+          2
+        ],
+        [
+          "Les relations sols-plantes",
+          2
+        ]
       ]
     },
     {
-      "title": "Dégradation, protection et amélioration des sols",
+      "id": "C4",
+      "label": "Traiter une situation relative à la dégradation, à la protection et à l’amélioration des sols",
       "lessons": [
-        "La dégradation des sols",
-        "La protection et l’amélioration des sols"
+        [
+          "La dégradation des sols",
+          2
+        ],
+        [
+          "La protection et l’amélioration des sols",
+          2
+        ]
       ]
     }
   ],
-  "source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/SVT/SVT_3eme.pdf"
+  "methodology": [
+    "démarches scientifiques",
+    "exploitation de documents",
+    "exploitation de résultats d’expériences"
+  ],
+  "program_source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/SVT/SVT_3eme.pdf",
+  "completeness": {
+    "competencies": 4,
+    "lessons": 11,
+    "progression_2026_2027": true
+  }
 }
