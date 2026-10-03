@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.1.0",
+  "authority": "DPFC / MENAET Côte d'Ivoire",
+  "level": "3e",
+  "bank_url": "https://dpfc-ci.net/?page_id=768",
+  "evaluation_formats_url": "https://dpfc-ci.net/?page_id=69",
+  "subjects": [
+    "allemand",
+    "anglais",
+    "arts-plastiques",
+    "edhc",
+    "education-musicale",
+    "eps",
+    "espagnol",
+    "francais",
+    "histoire-geographie",
+    "mathematiques",
+    "physique-chimie",
+    "svt"
+  ],
+  "policy": {
+    "use": "Les situations officielles servent de référence d'alignement pédagogique et d'évaluation.",
+    "copyright": "Ne pas recopier massivement les documents sources. Stocker les références et produire des activités originales alignées.",
+    "mapping": "Chaque activité originale doit indiquer matière, leçon/habileté, niveau taxonomique et source d'alignement."
+  }
+}
