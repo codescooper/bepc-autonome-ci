@@ -1,0 +1,40 @@
+{
+  "subject": "physique-chimie",
+  "status": "draft",
+  "copyright_origin": "project_original",
+  "activities": [
+    {
+      "id": "pc-poids-001",
+      "lesson": "Masse et poids d’un corps",
+      "type": "practice",
+      "skill": "Relier masse et poids",
+      "difficulty": 2,
+      "prompt": "Un objet de masse 2 kg est soumis à g = 10 N/kg. Calcule son poids.",
+      "answer": "20 N",
+      "explanation": "P = m × g = 2 × 10 = 20 N.",
+      "verification_status": "reviewed"
+    },
+    {
+      "id": "pc-electricite-001",
+      "lesson": "Puissance et énergie électriques",
+      "type": "practice",
+      "skill": "Calculer une énergie électrique",
+      "difficulty": 3,
+      "prompt": "Un appareil de 1000 W fonctionne pendant 2 h. Quelle énergie consomme-t-il en kWh ?",
+      "answer": "2 kWh",
+      "explanation": "1000 W = 1 kW. E = P × t = 1 × 2 = 2 kWh.",
+      "verification_status": "reviewed"
+    },
+    {
+      "id": "pc-acide-base-001",
+      "lesson": "Solutions acides, basiques et neutres",
+      "type": "quiz",
+      "skill": "Identifier la nature d’une solution",
+      "difficulty": 1,
+      "prompt": "Une solution de pH 3 est-elle acide, neutre ou basique ?",
+      "answer": "acide",
+      "explanation": "Un pH inférieur à 7 caractérise une solution acide.",
+      "verification_status": "reviewed"
+    }
+  ]
+}
