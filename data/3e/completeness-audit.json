@@ -92,5 +92,30 @@
     "Créer une banque d'activités originales alignées sur les situations DPFC.",
     "Construire le moteur de progression et de remédiation.",
     "Développer la première interface locale/offline."
-  ]
+  ],
+  "official_regime_3e": {
+    "source": "Circulaire horaires des 1er et 2nd cycles",
+    "french_hours_per_week": 6,
+    "english_hours_per_week": 3,
+    "hg_hours_per_week": 4,
+    "lv2_hours_per_week": 3,
+    "math_hours_per_week": 4,
+    "edhc_hours_per_week": 1,
+    "eps_hours_per_week": 2,
+    "tice_hours_per_week": 1,
+    "pc_session_hours": 2,
+    "svt_session_hours": 2,
+    "source_url": "https://dpfc-ci.net/dpfc/2026/textes_officiels/mena/1/Circulaire%20N%C2%B0%200308_%20Coefficients%20dans%20les%20premiers%20et%20second%20cycles%20de%20l%27enseignement%20secondaire%20g%C3%A9n%C3%A9ral.pdf"
+  },
+  "tice_status": {
+    "discipline_official": true,
+    "hours_per_week": 1,
+    "current_dataset_source_year": "2024-2025",
+    "progression_2026_2027_found_on_dpfc_catalogue": false,
+    "status": "official_subject_current_progression_to_confirm"
+  },
+  "evaluation_rhythm_source": {
+    "registered": true,
+    "url": "https://dpfc-ci.net/dpfc/2026/textes_officiels/Nature%20et%20rythme%20des%20%C3%A9valuations%20des%20apprentissages%20dans%20l%27enseignement%20secondaire%20g%C3%A9n%C3%A9ral.pdf"
+  }
 }
