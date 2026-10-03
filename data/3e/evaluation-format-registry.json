@@ -1,0 +1,65 @@
+{
+  "schema_version": "0.1.0",
+  "level": "3e",
+  "authority": "DPFC",
+  "source_url": "https://dpfc-ci.net/?page_id=69",
+  "formats": [
+    {
+      "subject": "allemand",
+      "official": true,
+      "structured": false
+    },
+    {
+      "subject": "anglais",
+      "official": true,
+      "structured": true
+    },
+    {
+      "subject": "arts-plastiques",
+      "official": true,
+      "structured": false
+    },
+    {
+      "subject": "edhc",
+      "official": true,
+      "structured": false
+    },
+    {
+      "subject": "education-musicale",
+      "official": true,
+      "structured": false
+    },
+    {
+      "subject": "francais",
+      "official": true,
+      "structured": false
+    },
+    {
+      "subject": "histoire-geographie",
+      "official": true,
+      "structured": true
+    },
+    {
+      "subject": "physique-chimie",
+      "official": true,
+      "structured": true
+    },
+    {
+      "subject": "svt",
+      "official": true,
+      "structured": false
+    },
+    {
+      "subject": "espagnol",
+      "official": true,
+      "structured": false
+    },
+    {
+      "subject": "mathematiques",
+      "official": true,
+      "structured": true,
+      "college_rule": "En 3e, le format d'un devoir est celui du BEPC; un devoir d'une heure suit le format 6e-4e."
+    }
+  ],
+  "next_action": "Materialiser et parser les formats DOC/DOCX/PDF non encore structurés avant génération automatique de sujets."
+}
