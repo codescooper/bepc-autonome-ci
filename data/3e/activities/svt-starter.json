@@ -1,0 +1,44 @@
+{
+  "subject": "svt",
+  "status": "draft",
+  "copyright_origin": "project_original",
+  "activities": [
+    {
+      "id": "svt-digestion-001",
+      "lesson": "La digestion des aliments",
+      "type": "practice",
+      "skill": "Expliquer la transformation des aliments",
+      "difficulty": 2,
+      "prompt": "Pourquoi dit-on que la digestion transforme les aliments ?",
+      "answer": "Parce qu’elle transforme les aliments en nutriments pouvant être absorbés par l’organisme.",
+      "explanation": "Les transformations mécaniques et chimiques rendent disponibles des molécules absorbables.",
+      "verification_status": "reviewed"
+    },
+    {
+      "id": "svt-sang-001",
+      "lesson": "Le sang",
+      "type": "quiz",
+      "skill": "Associer constituant et rôle",
+      "difficulty": 1,
+      "prompt": "Quel constituant du sang transporte principalement le dioxygène ?",
+      "answer": "Les globules rouges.",
+      "explanation": "L’hémoglobine des globules rouges fixe et transporte le dioxygène.",
+      "verification_status": "reviewed"
+    },
+    {
+      "id": "svt-sol-001",
+      "lesson": "Les caractéristiques d’un sol fertile",
+      "type": "practice",
+      "skill": "Identifier des facteurs de fertilité",
+      "difficulty": 2,
+      "prompt": "Cite deux caractéristiques favorables à la fertilité d’un sol.",
+      "answer_criteria": [
+        "présence de matière organique/humus",
+        "bonne disponibilité en eau et air",
+        "éléments minéraux"
+      ],
+      "explanation": "Un sol fertile doit fournir aux plantes eau, air et éléments nutritifs dans de bonnes conditions.",
+      "verification_status": "reviewed"
+    }
+  ]
+}
