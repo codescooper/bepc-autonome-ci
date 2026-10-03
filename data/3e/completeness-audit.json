@@ -60,5 +60,37 @@
     "complete_verified = programme et progression 2026-2027 structurés",
     "verified_partial_depth = sources officielles vérifiées mais extraction fine encore partielle",
     "TICE utilise actuellement une progression expérimentale plus ancienne et doit être revalidé pour 2026-2027"
+  ],
+  "updated_on": "2026-10-03",
+  "official_situation_bank": {
+    "registered": true,
+    "url": "https://dpfc-ci.net/?page_id=768",
+    "coverage": [
+      "allemand",
+      "anglais",
+      "arts-plastiques",
+      "edhc",
+      "education-musicale",
+      "eps",
+      "espagnol",
+      "francais",
+      "histoire-geographie",
+      "mathematiques",
+      "physique-chimie",
+      "svt"
+    ]
+  },
+  "official_evaluation_formats": {
+    "registered": true,
+    "url": "https://dpfc-ci.net/?page_id=69",
+    "note": "Plusieurs formats sont publiés en DOC/DOCX et nécessitent une extraction dédiée pour structuration fine."
+  },
+  "application_index": "index.json",
+  "next_phase": [
+    "Compléter l'extraction atomique Habiletés/Contenus hors mathématiques.",
+    "Structurer les formats DOC/DOCX d'évaluation officiels.",
+    "Créer une banque d'activités originales alignées sur les situations DPFC.",
+    "Construire le moteur de progression et de remédiation.",
+    "Développer la première interface locale/offline."
   ]
 }
