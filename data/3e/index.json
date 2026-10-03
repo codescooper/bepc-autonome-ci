@@ -1,0 +1,95 @@
+{
+  "schema_version": "0.1.0",
+  "country": "CI",
+  "level": "3e",
+  "school_year": "2026-2027",
+  "goal": "BEPC",
+  "core_subjects": [
+    {
+      "id": "mathematiques",
+      "path": "mathematiques.json",
+      "curriculum": "deep",
+      "progression": "2026-2027",
+      "exam_format": true
+    },
+    {
+      "id": "francais",
+      "path": "francais.json",
+      "curriculum": "structured",
+      "progression": "2026-2027",
+      "exam_format": "official_source_registered"
+    },
+    {
+      "id": "physique-chimie",
+      "path": "physique-chimie.json",
+      "curriculum": "structured",
+      "progression": "2026-2027",
+      "exam_format": true
+    },
+    {
+      "id": "svt",
+      "path": "svt.json",
+      "curriculum": "structured",
+      "progression": "2026-2027",
+      "exam_format": "official_source_registered"
+    },
+    {
+      "id": "histoire-geographie",
+      "path": "histoire-geographie.json",
+      "curriculum": "structured",
+      "progression": "2026-2027",
+      "exam_format": true
+    },
+    {
+      "id": "anglais",
+      "path": "anglais.json",
+      "curriculum": "structured",
+      "progression": "2026-2027",
+      "exam_format": true
+    },
+    {
+      "id": "edhc",
+      "path": "edhc.json",
+      "curriculum": "structured",
+      "progression": "2026-2027",
+      "exam_format": "official_source_registered"
+    }
+  ],
+  "lv2": [
+    {
+      "id": "espagnol",
+      "path": "espagnol.json",
+      "progression": "2026-2027"
+    },
+    {
+      "id": "allemand",
+      "path": "allemand.json",
+      "progression": "2026-2027",
+      "depth": "partial"
+    }
+  ],
+  "complementary": [
+    {
+      "id": "eps",
+      "status": "official_sources_available"
+    },
+    {
+      "id": "arts-plastiques",
+      "status": "official_sources_available"
+    },
+    {
+      "id": "education-musicale",
+      "status": "official_sources_available"
+    },
+    {
+      "id": "tice",
+      "path": "tice.json",
+      "status": "needs_2026_2027_revalidation"
+    }
+  ],
+  "adaptive_learning": {
+    "prerequisites": "maths-prerequisites.json",
+    "mastery_model": "../../docs/MASTERY-MODEL.json"
+  },
+  "situations": "situations-registry.json"
+}
