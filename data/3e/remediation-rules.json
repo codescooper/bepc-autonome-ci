@@ -1,0 +1,41 @@
+{
+  "schema_version": "0.1.0",
+  "status": "draft",
+  "engine": "local-rule-based",
+  "rules": [
+    {
+      "when": "skill_attempts >= 2 && skill_score < 50",
+      "action": "serve_remediation_then_guided_example"
+    },
+    {
+      "when": "skill_score < 50 && prerequisite_ids.length > 0",
+      "action": "test_direct_prerequisites"
+    },
+    {
+      "when": "prerequisite_score < 60",
+      "action": "temporarily_route_to_prerequisite"
+    },
+    {
+      "when": "skill_score >= 70",
+      "action": "advance_to_practice"
+    },
+    {
+      "when": "skill_score >= 85 && coverage_ok",
+      "action": "offer_bepc_training"
+    },
+    {
+      "when": "three_recent_attempts_all_correct",
+      "action": "increase_difficulty"
+    },
+    {
+      "when": "two_recent_attempts_wrong_same_error_tag",
+      "action": "show_targeted_explanation"
+    }
+  ],
+  "safeguards": [
+    "Ne pas diagnostiquer de trouble d'apprentissage.",
+    "Ne pas présenter les scores internes comme des notes officielles.",
+    "Permettre à l'élève de revoir volontairement toute leçon.",
+    "Conserver la progression localement par défaut."
+  ]
+}
