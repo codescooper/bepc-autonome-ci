@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.1.0",
+  "id": "diagnostic-3e-v1",
+  "level": "3e",
+  "goal": "BEPC",
+  "status": "draft",
+  "purpose": "Estimer rapidement le point de départ de l'élève sans transformer ce score en note scolaire officielle.",
+  "sections": [
+    {
+      "subject": "mathematiques",
+      "minutes": 20,
+      "activity_source": "activities/mathematiques-starter.json",
+      "skills": [
+        "calcul littéral",
+        "racines carrées",
+        "équations",
+        "Thalès"
+      ]
+    },
+    {
+      "subject": "francais",
+      "minutes": 20,
+      "skills": [
+        "compréhension",
+        "grammaire/orthographe",
+        "expression écrite"
+      ],
+      "activities_status": "to_create"
+    },
+    {
+      "subject": "physique-chimie",
+      "minutes": 15,
+      "skills": [
+        "mécanique",
+        "électricité",
+        "chimie"
+      ],
+      "activities_status": "to_create"
+    },
+    {
+      "subject": "svt",
+      "minutes": 15,
+      "skills": [
+        "nutrition",
+        "reproduction/VIH",
+        "sols"
+      ],
+      "activities_status": "to_create"
+    },
+    {
+      "subject": "histoire-geographie",
+      "minutes": 15,
+      "skills": [
+        "repères historiques",
+        "analyse documentaire",
+        "économie CI/Afrique"
+      ],
+      "activities_status": "to_create"
+    },
+    {
+      "subject": "anglais",
+      "minutes": 15,
+      "skills": [
+        "Reading",
+        "Language in Use",
+        "Writing"
+      ],
+      "activities_status": "to_create"
+    }
+  ],
+  "interpretation": {
+    "rule": "Le diagnostic sert uniquement à choisir le premier parcours et les prérequis à réviser.",
+    "bands": [
+      {
+        "min": 0,
+        "max": 39,
+        "label": "prerequisites_first"
+      },
+      {
+        "min": 40,
+        "max": 69,
+        "label": "guided_learning"
+      },
+      {
+        "min": 70,
+        "max": 84,
+        "label": "consolidation"
+      },
+      {
+        "min": 85,
+        "max": 100,
+        "label": "bepc_training"
+      }
+    ],
+    "caution": "Seuils de conception à calibrer; ils ne proviennent pas de la DPFC."
+  }
+}
