@@ -4,19 +4,41 @@
   "status": "official_verified",
   "history": [
     {
-      "theme": "Évolution sociopolitique de la Côte d’Ivoire et de l’Afrique du XIXe siècle à nos jours",
+      "theme": "L’évolution sociopolitique de la Côte d’Ivoire et de l’Afrique du XIXe siècle à nos jours",
       "lessons": [
-        "Le mouvement impérialiste et la colonisation en Côte d’Ivoire",
-        "L’accession de la Côte d’Ivoire à l’indépendance",
-        "Les crises sociopolitiques de l’Afrique indépendante : guerre du Biafra / guerre du Rwanda"
+        {
+          "title": "Le mouvement impérialiste et la colonisation en Côte d’Ivoire",
+          "hours": 4
+        },
+        {
+          "title": "L’accession de la Côte d’Ivoire à l’indépendance",
+          "hours": 4
+        },
+        {
+          "title": "Causes et caractères des crises sociopolitiques de l’Afrique indépendante",
+          "hours": 2
+        },
+        {
+          "title": "La crise rwandaise : de la guerre au génocide des Tutsi (1990-1994)",
+          "hours": 3
+        }
       ]
     },
     {
       "theme": "De la Seconde Guerre mondiale aux efforts de construction du monde et de l’Afrique",
       "lessons": [
-        "Les causes, caractères et conséquences de la Deuxième Guerre mondiale",
-        "L’Organisation des Nations Unies (ONU)",
-        "L’Union Africaine (UA)"
+        {
+          "title": "Les causes, les caractères et les conséquences de la Deuxième Guerre mondiale",
+          "hours": 4
+        },
+        {
+          "title": "L’Organisation des Nations Unies (ONU)",
+          "hours": 3
+        },
+        {
+          "title": "L’Union Africaine (UA)",
+          "hours": 3
+        }
       ]
     }
   ],
@@ -24,18 +46,54 @@
     {
       "theme": "Étude économique de la Côte d’Ivoire",
       "lessons": [
-        "Les atouts naturels et humains du développement économique de la Côte d’Ivoire",
-        "Les secteurs d’activités économiques de la Côte d’Ivoire",
-        "Les problèmes du développement économique de la Côte d’Ivoire"
+        {
+          "title": "Les atouts du développement économique de la Côte d’Ivoire",
+          "hours": 3
+        },
+        {
+          "title": "Les secteurs d’activités économiques de la Côte d’Ivoire",
+          "hours": 5
+        },
+        {
+          "title": "Les problèmes du développement économique de la Côte d’Ivoire",
+          "hours": 4
+        }
       ]
     },
     {
       "theme": "L’Afrique face à la mondialisation",
       "lessons": [
-        "Étude économique de l’Afrique",
-        "La place de l’Afrique dans la mondialisation"
+        {
+          "title": "Étude économique de l’Afrique",
+          "hours": 4
+        },
+        {
+          "title": "La place de l’Afrique dans la mondialisation",
+          "hours": 4
+        }
       ]
     }
   ],
-  "source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/Histoire_Geographie/HISTGEO_3eme.pdf"
+  "source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/Histoire_Geographie/HISTGEO_3eme.pdf",
+  "schema_version": "0.3.0",
+  "current_progression": {
+    "school_year": "2026-2027",
+    "source_url": "https://dpfc-ci.net/dpfc/2027/progressions/HG_PROGRESSIONS_DPFC_2026_2027.pdf"
+  },
+  "methodology": [
+    "commentaire de textes",
+    "frise chronologique",
+    "prise de notes",
+    "exploitation de documents",
+    "diagramme ombrothermique",
+    "diagramme circulaire/semi-circulaire",
+    "courbe d’évolution",
+    "diagramme en bandes/histogramme"
+  ],
+  "completeness": {
+    "history_lessons": 7,
+    "geography_lessons": 5,
+    "progression_2026_2027": true,
+    "bepc_mock_in_progression": true
+  }
 }
