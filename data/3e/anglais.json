@@ -1,9 +1,16 @@
 {
+  "schema_version": "0.3.0",
   "subject": "anglais",
   "level": "3e",
   "status": "official_verified",
+  "current_progression": {
+    "school_year": "2026-2027",
+    "annual_hours": 96,
+    "source_url": "https://dpfc-ci.net/dpfc/2027/progressions/ANGLAIS_1er%20cycle%20PROGRESSIONS_DPFC_2026_2027.pdf"
+  },
   "units": [
     {
+      "id": 1,
       "theme": "Life at school",
       "lessons": [
         "My last holidays",
@@ -12,6 +19,7 @@
       ]
     },
     {
+      "id": 2,
       "theme": "Women at work",
       "lessons": [
         "Rural women",
@@ -20,6 +28,7 @@
       ]
     },
     {
+      "id": 3,
       "theme": "Travelling",
       "lessons": [
         "Means of transport",
@@ -28,6 +37,7 @@
       ]
     },
     {
+      "id": 4,
       "theme": "Fashion",
       "lessons": [
         "Modern and traditional clothes",
@@ -36,22 +46,25 @@
       ]
     },
     {
-      "theme": "City or village",
+      "id": 5,
+      "theme": "City or village?",
       "lessons": [
         "City life",
-        "Village life",
-        "Rural exodus"
+        "Is village life better?",
+        "Zoko moves to the city"
       ]
     },
     {
+      "id": 6,
       "theme": "Human rights",
       "lessons": [
-        "My rights",
-        "My duties",
-        "Tolerance"
+        "I know my rights",
+        "What are your duties?",
+        "Let’s promote tolerance"
       ]
     },
     {
+      "id": 7,
       "theme": "Hygiene and health",
       "lessons": [
         "Endemic diseases",
@@ -60,13 +73,24 @@
       ]
     },
     {
+      "id": 8,
       "theme": "Information and Communication Technologies",
       "lessons": [
-        "The computer",
-        "The telephone",
+        "Can you use a computer?",
+        "Look at my new smart phone",
         "The Internet"
       ]
     }
   ],
-  "source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_3eme.pdf"
+  "exam_skills": [
+    "Reading",
+    "Language in Use",
+    "Writing"
+  ],
+  "program_source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_3eme.pdf",
+  "completeness": {
+    "units": 8,
+    "core_lessons": 24,
+    "progression_2026_2027": true
+  }
 }
