@@ -38,5 +38,32 @@
       ]
     }
   ],
-  "source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/Physique_Chimie/PHYSIQUE-CHIMIE_3eme.pdf"
+  "source_url": "https://dpfc-ci.net/wp-content/uploads//dpfc_fichiers/Programmes/prg_secondaire/Physique_Chimie/PHYSIQUE-CHIMIE_3eme.pdf",
+  "schema_version": "0.3.0",
+  "current_progression": {
+    "school_year": "2026-2027",
+    "weeks": 32,
+    "source_url": "https://dpfc-ci.net/dpfc/2027/progressions/PHYSIQUE-CHIMIE_PROGRESSIONS%202026-2027_DPFC_2026_2027.pdf",
+    "sequence": [
+      "Masse et poids d’un corps",
+      "Les forces",
+      "Équilibre d’un solide soumis à deux forces",
+      "Travail et puissance mécaniques",
+      "Énergie mécanique",
+      "Électrolyse et synthèse de l’eau",
+      "Les alcanes",
+      "Les lentilles",
+      "Les défauts de l’œil et leurs corrections",
+      "Oxydation des corps purs simples",
+      "Réduction des oxydes",
+      "Solutions acides, basiques et neutres",
+      "Puissance et énergie électriques",
+      "Le conducteur ohmique"
+    ]
+  },
+  "completeness": {
+    "lessons": 14,
+    "progression_2026_2027": true,
+    "exam_mapping": true
+  }
 }
