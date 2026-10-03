@@ -1,0 +1,33 @@
+{
+  "schema_version": "0.1.0",
+  "type_values": [
+    "guided_example",
+    "practice",
+    "quiz",
+    "remediation",
+    "bepc_training",
+    "mock_exam"
+  ],
+  "fields": {
+    "id": "string",
+    "subject": "string",
+    "lesson_id": "string",
+    "skill_ids": "string[]",
+    "type": "enum",
+    "difficulty": "1..5",
+    "taxonomy_level": "1..4",
+    "prompt": "string",
+    "answer": "string|object",
+    "explanation": "string",
+    "source_alignment_ids": "string[]",
+    "copyright_origin": "project_original",
+    "verification_status": "draft|reviewed|validated"
+  },
+  "generation_rules": [
+    "Ne pas reproduire textuellement les banques officielles.",
+    "Aligner chaque activité sur une ou plusieurs habiletés vérifiées.",
+    "Une correction doit expliquer la démarche, pas seulement donner la réponse.",
+    "Les entraînements BEPC doivent respecter le format officiel de la matière quand il est structuré.",
+    "Les activités non validées ne doivent pas être utilisées pour calculer une maîtrise certifiée."
+  ]
+}
