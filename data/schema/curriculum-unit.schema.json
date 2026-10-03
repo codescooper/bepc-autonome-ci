@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.2.0",
+  "canonical_official_unit": {
+    "competency": null,
+    "theme": null,
+    "situation_reference": null,
+    "lesson": null,
+    "session": null,
+    "skills_content": [
+      {
+        "ability": null,
+        "content": null
+      }
+    ],
+    "source_ids": [],
+    "verification_status": "to_verify"
+  },
+  "project_extension": {
+    "prerequisites": [],
+    "taxonomy_levels": [],
+    "exam_links": [],
+    "estimated_minutes": null,
+    "mastery_skill_ids": [],
+    "original_activity_ids": []
+  },
+  "rules": [
+    "Ne jamais présenter les métadonnées adaptatives du projet comme des prescriptions DPFC.",
+    "Chaque habileté/contenu doit être traçable vers une source officielle.",
+    "Les activités et corrections produites par le projet sont originales et séparées des documents sources."
+  ],
+  "official_references": [
+    {
+      "id": "dpfc-programmes",
+      "url": "https://dpfc-ci.net/?page_id=283"
+    },
+    {
+      "id": "dpfc-progressions-2026-2027",
+      "url": "https://dpfc-ci.net/?page_id=5267"
+    },
+    {
+      "id": "dpfc-formats-evaluation",
+      "url": "https://dpfc-ci.net/?page_id=69"
+    },
+    {
+      "id": "dpfc-banque-situations",
+      "url": "https://dpfc-ci.net/?page_id=768"
+    }
+  ]
+}
