@@ -48,5 +48,31 @@
       ]
     }
   ],
-  "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+  "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf",
+  "schema_version": "0.3.0",
+  "current_progression": {
+    "school_year": "2026-2027",
+    "weeks": 32,
+    "hour_pattern": [
+      "Grammaire/Orthographe 1h",
+      "Expression orale/Œuvre intégrale 1h",
+      "Lecture/Exploitation 1h",
+      "Expression écrite 2h"
+    ],
+    "source_url": "https://dpfc-ci.net/dpfc/2027/progressions/FRANCAIS_1er%20Cycle_2627_PROGRESSIONS_A%20USAGE%20PEDAGOGIQUE_DPFC_2026_2027.pdf"
+  },
+  "progression_features": [
+    "mise à niveau par lecture-compréhension",
+    "texte argumentatif en lecture et expression écrite",
+    "dialogue oral",
+    "deux études d’œuvres intégrales",
+    "devoirs de rédaction",
+    "devoirs d’orthographe",
+    "remédiations intégrées"
+  ],
+  "completeness": {
+    "activities": 5,
+    "progression_2026_2027": true,
+    "session_level_extraction": "partial"
+  }
 }
