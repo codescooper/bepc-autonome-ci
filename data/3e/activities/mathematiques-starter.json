@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.1.0",
+  "subject": "mathematiques",
+  "level": "3e",
+  "copyright_origin": "project_original",
+  "status": "draft",
+  "alignment": {
+    "curriculum_file": "../mathematiques.json",
+    "exam_format_file": "../evaluations-bepc.json"
+  },
+  "activities": [
+    {
+      "id": "maths-calcul-litteral-001",
+      "lesson": "Calcul littéral",
+      "skill": "Développer une expression littérale",
+      "type": "guided_example",
+      "difficulty": 1,
+      "taxonomy_level": 3,
+      "prompt": "Développe et réduis A = 3(x + 4) - 2(x - 1).",
+      "answer": "A = x + 14",
+      "explanation": "Distribuer 3 puis -2 : 3x+12-2x+2. Regrouper les termes semblables : x+14.",
+      "verification_status": "reviewed"
+    },
+    {
+      "id": "maths-calcul-litteral-002",
+      "lesson": "Calcul littéral",
+      "skill": "Factoriser une expression littérale",
+      "type": "practice",
+      "difficulty": 2,
+      "taxonomy_level": 3,
+      "prompt": "Factorise B = 5x² - 15x.",
+      "answer": "B = 5x(x - 3)",
+      "explanation": "5x est facteur commun aux deux termes.",
+      "verification_status": "reviewed"
+    },
+    {
+      "id": "maths-racines-001",
+      "lesson": "Racines carrées",
+      "skill": "Calculer avec des racines carrées",
+      "type": "practice",
+      "difficulty": 2,
+      "taxonomy_level": 3,
+      "prompt": "Simplifie C = √50 - 2√8.",
+      "answer": "C = √2",
+      "explanation": "√50=5√2 et √8=2√2, donc 5√2-4√2=√2.",
+      "verification_status": "reviewed"
+    },
+    {
+      "id": "maths-equations-r-001",
+      "lesson": "Équations et inéquations dans ℝ",
+      "skill": "Résoudre une équation du premier degré",
+      "type": "practice",
+      "difficulty": 2,
+      "taxonomy_level": 3,
+      "prompt": "Résous 3x - 7 = 11.",
+      "answer": "x = 6",
+      "explanation": "Ajouter 7 aux deux membres : 3x=18, puis diviser par 3.",
+      "verification_status": "reviewed"
+    },
+    {
+      "id": "maths-thales-001",
+      "lesson": "Propriétés de Thalès dans un triangle",
+      "skill": "Calculer des distances",
+      "type": "bepc_training",
+      "difficulty": 3,
+      "taxonomy_level": 3,
+      "prompt": "Dans le triangle ABC, M appartient à [AB], N à [AC] et MN est parallèle à BC. AB=10 cm, AM=6 cm et AC=15 cm. Calcule AN.",
+      "answer": "AN = 9 cm",
+      "explanation": "Par Thalès, AM/AB = AN/AC. Donc 6/10 = AN/15, d'où AN=9.",
+      "verification_status": "reviewed"
+    },
+    {
+      "id": "maths-remediation-factorisation-001",
+      "lesson": "Calcul littéral",
+      "skill": "Factoriser une expression littérale",
+      "type": "remediation",
+      "difficulty": 1,
+      "taxonomy_level": 2,
+      "prompt": "Quel est le facteur commun de 8x² + 12x ?",
+      "answer": "4x",
+      "explanation": "8x²=4x×2x et 12x=4x×3.",
+      "verification_status": "reviewed"
+    }
+  ]
+}
