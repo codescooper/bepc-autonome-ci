@@ -1,0 +1,45 @@
+{
+  "subject": "anglais",
+  "status": "draft",
+  "copyright_origin": "project_original",
+  "activities": [
+    {
+      "id": "eng-reading-001",
+      "unit": "Life at school",
+      "type": "practice",
+      "skill": "Reading",
+      "difficulty": 2,
+      "prompt": "Read: 'Awa returned to school after the holidays. She was happy to meet her classmates again, but she worried about mathematics.' Why was Awa happy?",
+      "answer": "She was happy to meet her classmates again.",
+      "explanation": "The answer is stated directly in the second sentence.",
+      "verification_status": "reviewed"
+    },
+    {
+      "id": "eng-language-001",
+      "unit": "Life at school",
+      "type": "practice",
+      "skill": "Language in Use",
+      "difficulty": 2,
+      "prompt": "Complete: Last year, we ___ (study) English every Tuesday.",
+      "answer": "studied",
+      "explanation": "A finished action in the past takes the simple past here.",
+      "verification_status": "reviewed"
+    },
+    {
+      "id": "eng-writing-001",
+      "unit": "Life at school",
+      "type": "guided_example",
+      "skill": "Writing",
+      "difficulty": 2,
+      "prompt": "Write 5–6 sentences about one good memory from school.",
+      "answer_criteria": [
+        "clear event",
+        "past tense mostly correct",
+        "logical order",
+        "basic punctuation"
+      ],
+      "explanation": "Plan: when/where → what happened → who was there → why the memory matters.",
+      "verification_status": "reviewed"
+    }
+  ]
+}
