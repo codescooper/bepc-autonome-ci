@@ -1,0 +1,3 @@
+const KEYS=['bepc-progress-v2','bepc-game-v1','bepc-diagnostic-maths','bepc-mock-maths'];
+export function exportBackup(){const data:{[k:string]:string|null}={};KEYS.forEach(k=>data[k]=localStorage.getItem(k));const blob=new Blob([JSON.stringify({version:1,exportedAt:new Date().toISOString(),data},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='bepc-autonome-sauvegarde.json';a.click();URL.revokeObjectURL(a.href)}
+export async function importBackup(file:File){const parsed=JSON.parse(await file.text());if(parsed?.version!==1||!parsed?.data)throw new Error('Sauvegarde incompatible');KEYS.forEach(k=>{const v=parsed.data[k];if(typeof v==='string')localStorage.setItem(k,v)});location.reload()}
