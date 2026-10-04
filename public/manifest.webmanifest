@@ -1,0 +1,10 @@
+{
+  "name": "BEPC Autonome CI",
+  "short_name": "BEPC CI",
+  "description": "Préparation autonome et offline au BEPC ivoirien",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f2e9",
+  "theme_color": "#173d2b",
+  "lang": "fr"
+}
