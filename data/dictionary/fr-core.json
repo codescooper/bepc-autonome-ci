@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "word": "argument",
+      "definition": "Idée ou raison utilisée pour soutenir ou contester une opinion.",
+      "subject": "Français",
+      "example": "Elle donne deux arguments pour défendre sa thèse."
+    },
+    {
+      "word": "thèse",
+      "definition": "Opinion ou idée principale défendue dans un texte argumentatif.",
+      "subject": "Français"
+    },
+    {
+      "word": "hypoténuse",
+      "definition": "Dans un triangle rectangle, côté opposé à l’angle droit. C’est le côté le plus long.",
+      "subject": "Mathématiques"
+    },
+    {
+      "word": "vecteur",
+      "definition": "Objet mathématique caractérisé notamment par une direction, un sens et une longueur.",
+      "subject": "Mathématiques"
+    },
+    {
+      "word": "masse",
+      "definition": "Grandeur mesurant la quantité de matière d’un corps. Elle s’exprime en kilogrammes.",
+      "subject": "Physique-Chimie"
+    },
+    {
+      "word": "poids",
+      "definition": "Force d’attraction exercée par un astre sur un corps. Il s’exprime en newtons.",
+      "subject": "Physique-Chimie"
+    },
+    {
+      "word": "nutriment",
+      "definition": "Substance simple issue notamment de la digestion et utilisable par l’organisme.",
+      "subject": "SVT"
+    },
+    {
+      "word": "décolonisation",
+      "definition": "Processus par lequel des territoires colonisés accèdent à l’autonomie ou à l’indépendance.",
+      "subject": "Histoire"
+    },
+    {
+      "word": "mondialisation",
+      "definition": "Intensification des échanges et des interdépendances à l’échelle mondiale.",
+      "subject": "Géographie"
+    },
+    {
+      "word": "citoyen",
+      "definition": "Personne appartenant à une communauté politique et disposant de droits et de devoirs.",
+      "subject": "EDHC"
+    }
+  ]
+}
