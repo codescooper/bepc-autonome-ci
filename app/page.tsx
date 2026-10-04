@@ -1,5 +1,7 @@
 'use client';
 import {useEffect,useState} from 'react';
+import MasteryCard from '../components/MasteryCard';
+import {loadProgress,recordAttempt,saveProgress,Progress,emptyProgress} from '../lib/learning';
 
 const skills=['Identifier un polynôme','Calculer avec les puissances et les polynômes','Développer une expression','Réduire une expression','Factoriser une expression','Déterminer le domaine d’une fraction rationnelle','Simplifier une fraction rationnelle','Traiter une situation'];
 const exercises=[
@@ -11,10 +13,11 @@ const norm=(v:string)=>v.toLowerCase().replace(/\s/g,'').replaceAll('×','*').re
 export default function Home(){
  const [screen,setScreen]=useState<'home'|'lesson'>('home');
  const [done,setDone]=useState<string[]>([]);
+ const [progress,setProgress]=useState<Progress>(emptyProgress);
  const [step,setStep]=useState(0); const [value,setValue]=useState(''); const [result,setResult]=useState<'ok'|'bad'|null>(null);
- useEffect(()=>{try{setDone(JSON.parse(localStorage.getItem('bepc-progress')||'[]'))}catch{}},[]);
+ useEffect(()=>{try{setDone(JSON.parse(localStorage.getItem('bepc-progress')||'[]'));setProgress(loadProgress())}catch{}},[]);
  const saveDone=()=>{const n=done.includes('Calcul littéral')?done:[...done,'Calcul littéral'];setDone(n);localStorage.setItem('bepc-progress',JSON.stringify(n))};
- const check=()=>{const aliases=step===0?['x+14']:['5x(x-3)','5x(x−3)'];setResult(aliases.map(norm).includes(norm(value))?'ok':'bad')};
+ const check=()=>{const aliases=step===0?['x+14']:['5x(x-3)','5x(x−3)'];const ok=aliases.map(norm).includes(norm(value));setResult(ok?'ok':'bad');const skill=step===0?'Développer une expression littérale':'Factoriser une expression littérale';const next=recordAttempt(progress,skill,ok);setProgress(next);saveProgress(next)};
  if(screen==='lesson') return <main>
   <header><button className="back" onClick={()=>setScreen('home')}>← Tableau de bord</button><b>BEPC AUTONOME CI</b><span className="offline">Mathématiques · 3e</span></header>
   <section className="lessonHero"><p className="eyebrow">LEÇON 01 · CALCULS ALGÉBRIQUES</p><h1>Calcul littéral</h1><p>Apprendre à transformer une expression sans changer sa valeur : développer, réduire, factoriser et simplifier.</p></section>
@@ -27,6 +30,7 @@ export default function Home(){
      {result==='bad'&&<div className="feedback bad"><b>Pas encore.</b><p>{exercises[step].help}</p><button onClick={()=>setResult('ok')}>Voir la correction</button></div>}
      {result==='ok'&&<div className="feedback ok"><b>{value?'Correction':'Solution'} : {exercises[step].display}</b><p>{exercises[step].explain}</p>{step<exercises.length-1?<button onClick={()=>{setStep(step+1);setValue('');setResult(null)}}>Exercice suivant →</button>:<button onClick={()=>{saveDone();setScreen('home')}}>Terminer la leçon ✓</button>}</div>}
     </div>
+    <div className="masteryPanel"><p className="eyebrow">MAÎTRISE</p><h2>Ce que tu maîtrises</h2><MasteryCard name="Développer" state={progress.skills['Développer une expression littérale']}/><MasteryCard name="Factoriser" state={progress.skills['Factoriser une expression littérale']}/></div>
    </div>
   </section>
  </main>;
