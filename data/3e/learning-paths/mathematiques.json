@@ -1,0 +1,115 @@
+{
+  "subject": "mathematiques",
+  "level": "3e",
+  "version": "0.1.0",
+  "lessons": [
+    {
+      "id": "calcul-litteral",
+      "order": 1,
+      "title": "Calcul littéral",
+      "status": "interactive",
+      "activity_ids": [
+        "maths-calcul-litteral-001",
+        "maths-calcul-litteral-002",
+        "maths-remediation-factorisation-001"
+      ]
+    },
+    {
+      "id": "thales",
+      "order": 2,
+      "title": "Propriétés de Thalès dans un triangle",
+      "status": "practice_ready",
+      "activity_ids": [
+        "maths-thales-001"
+      ]
+    },
+    {
+      "id": "racines-carrees",
+      "order": 3,
+      "title": "Racines carrées",
+      "status": "practice_ready",
+      "activity_ids": [
+        "maths-racines-001"
+      ]
+    },
+    {
+      "id": "triangle-rectangle",
+      "order": 4,
+      "title": "Triangle rectangle",
+      "status": "content_ready",
+      "activity_ids": []
+    },
+    {
+      "id": "calcul-numerique",
+      "order": 5,
+      "title": "Calcul numérique",
+      "status": "content_ready",
+      "activity_ids": []
+    },
+    {
+      "id": "angles-inscrits",
+      "order": 6,
+      "title": "Angles inscrits",
+      "status": "content_ready",
+      "activity_ids": []
+    },
+    {
+      "id": "vecteurs",
+      "order": 7,
+      "title": "Vecteurs",
+      "status": "content_ready",
+      "activity_ids": []
+    },
+    {
+      "id": "equations-r",
+      "order": 8,
+      "title": "Équations et inéquations dans ℝ",
+      "status": "practice_ready",
+      "activity_ids": [
+        "maths-equations-r-001"
+      ]
+    },
+    {
+      "id": "pyramides-cones",
+      "order": 9,
+      "title": "Pyramides et cônes",
+      "status": "content_ready",
+      "activity_ids": []
+    },
+    {
+      "id": "statistique",
+      "order": 10,
+      "title": "Statistique",
+      "status": "content_ready",
+      "activity_ids": []
+    },
+    {
+      "id": "coordonnees-vecteurs",
+      "order": 11,
+      "title": "Coordonnées de vecteurs",
+      "status": "content_ready",
+      "activity_ids": []
+    },
+    {
+      "id": "equations-droites",
+      "order": 12,
+      "title": "Équations de droites",
+      "status": "content_ready",
+      "activity_ids": []
+    },
+    {
+      "id": "applications-affines",
+      "order": 13,
+      "title": "Applications affines",
+      "status": "content_ready",
+      "activity_ids": []
+    },
+    {
+      "id": "equations-rxr",
+      "order": 14,
+      "title": "Équations et inéquations dans ℝ × ℝ",
+      "status": "content_ready",
+      "activity_ids": []
+    }
+  ]
+}
