@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "node tests/smoke.mjs",
+    "check": "npm run test && npm run build"
   },
   "dependencies": {
     "@types/node": "^24.0.0",
