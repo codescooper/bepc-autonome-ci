@@ -1,6 +1,24 @@
 import fs from 'node:fs';
-const curriculum=fs.readFileSync('lib/curriculum-3e.ts','utf8');
-const batches=['maths-rich-batch.ts','french-rich-batch.ts','pc-rich-batch.ts','svt-rich-batch.ts','hg-rich-batch.ts','english-rich-batch.ts','edhc-rich-batch.ts','complementary-rich-batch.ts'].map(f=>fs.readFileSync('lib/'+f,'utf8')).join('\n');
+const read=n=>fs.readFileSync('lib/'+n,'utf8');
+const countMk=s=>(s.match(/\nmk\('/g)||[]).length;
+const counts={
+  mathematiques: countMk(read('maths-rich-batch.ts'))+2,
+  francais: countMk(read('french-rich-batch.ts')),
+  'physique-chimie': countMk(read('pc-rich-batch.ts')),
+  svt: countMk(read('svt-rich-batch.ts')),
+  'histoire-geographie': countMk(read('hg-rich-batch.ts')),
+  anglais: countMk(read('english-rich-batch.ts')),
+  edhc: countMk(read('edhc-rich-batch.ts')),
+};
+const complementary=read('complementary-rich-batch.ts');
+for(const subject of ['espagnol','allemand','tice','eps','arts-plastiques','education-musicale']){
+  counts[subject]=(complementary.match(new RegExp("mk\\('"+subject+"'",'g'))||[]).length;
+}
 const expected={mathematiques:14,francais:17,'physique-chimie':14,svt:11,'histoire-geographie':12,anglais:8,edhc:13,espagnol:7,allemand:8,tice:7,eps:6,'arts-plastiques':9,'education-musicale':16};
-for(const [subject,count] of Object.entries(expected)){const rx=new RegExp("subject:'"+subject+"'","g");let actual=(batches.match(rx)||[]).length;if(subject==='mathematiques')actual+=2;if(subject==='physique-chimie')actual+=2;if(subject==='francais')actual+=1;if(actual<count){console.error(subject+': rich coverage '+actual+'/'+count);process.exit(1)}}
-const total=Object.values(expected).reduce((a,b)=>a+b,0);console.log('Pedagogical coverage gate OK · '+total+' official units targeted across 13 subjects');
+let failed=false;
+for(const [subject,want] of Object.entries(expected)){const got=counts[subject]??0;console.log(got===want?'✓':'✗',subject,got+'/'+want);if(got!==want)failed=true}
+if(failed)process.exit(1);
+const total=Object.values(expected).reduce((a,b)=>a+b,0);
+const gotTotal=Object.values(counts).reduce((a,b)=>a+b,0);
+if(gotTotal!==total){console.error('Total mismatch',gotTotal,total);process.exit(1)}
+console.log('Pedagogical coverage gate OK · '+gotTotal+'/'+total+' units declared across 13 subjects');
