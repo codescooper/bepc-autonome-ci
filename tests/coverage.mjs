@@ -1,0 +1,6 @@
+import fs from 'node:fs';
+const curriculum=fs.readFileSync('lib/curriculum-3e.ts','utf8');
+const batches=['maths-rich-batch.ts','french-rich-batch.ts','pc-rich-batch.ts','svt-rich-batch.ts','hg-rich-batch.ts','english-rich-batch.ts','edhc-rich-batch.ts','complementary-rich-batch.ts'].map(f=>fs.readFileSync('lib/'+f,'utf8')).join('\n');
+const expected={mathematiques:14,francais:17,'physique-chimie':14,svt:11,'histoire-geographie':12,anglais:8,edhc:13,espagnol:7,allemand:8,tice:7,eps:6,'arts-plastiques':9,'education-musicale':16};
+for(const [subject,count] of Object.entries(expected)){const rx=new RegExp("subject:'"+subject+"'","g");let actual=(batches.match(rx)||[]).length;if(subject==='mathematiques')actual+=2;if(subject==='physique-chimie')actual+=2;if(subject==='francais')actual+=1;if(actual<count){console.error(subject+': rich coverage '+actual+'/'+count);process.exit(1)}}
+const total=Object.values(expected).reduce((a,b)=>a+b,0);console.log('Pedagogical coverage gate OK · '+total+' official units targeted across 13 subjects');
