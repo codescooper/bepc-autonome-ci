@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "node tests/smoke.mjs",
+    "test": "node tests/smoke.mjs && node tests/coverage.mjs",
     "check": "npm run test && npm run build"
   },
   "dependencies": {
