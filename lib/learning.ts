@@ -62,6 +62,8 @@ export function lessonKey(subject:string,lesson:string){return subject+':'+lesso
 export function completeLesson(progress:Progress,subject:string,lesson:string):Progress{const key=lessonKey(subject,lesson);return progress.completed.includes(key)?progress:{...progress,completed:[...progress.completed,key]}}
 export function isLessonCompleted(progress:Progress,subject:string,lesson:string){return progress.completed.includes(lessonKey(subject,lesson))}
 export function nextIncomplete<T extends {id:string}>(progress:Progress,subject:string,lessons:T[]){return lessons.find(l=>!isLessonCompleted(progress,subject,l.id))||null}
+export function lessonAccess<T extends {id:string}>(progress:Progress,subject:string,lessons:T[],lessonId:string){const index=lessons.findIndex(l=>l.id===lessonId);if(index<0)return{unlocked:false,completed:false,current:false};const completed=isLessonCompleted(progress,subject,lessonId);const firstIncomplete=lessons.findIndex(l=>!isLessonCompleted(progress,subject,l.id));const current=firstIncomplete===index;return{unlocked:completed||current||firstIncomplete===-1,completed,current}}
+export function prerequisiteFor<T extends {id:string}>(progress:Progress,subject:string,lessons:T[],lessonId:string){const index=lessons.findIndex(l=>l.id===lessonId);if(index<=0)return null;for(let i=0;i<index;i++)if(!isLessonCompleted(progress,subject,lessons[i].id))return lessons[i];return null}
 
 export function recommendation(score: number) {
   if (score < 50) return 'Revoir l’explication et faire une remédiation';
