@@ -1,7 +1,8 @@
+import {richLessons} from './rich-lessons';
 export type CurriculumUnit={id:string;title:string;status:'rich'|'structured'|'reference';note?:string};
 export type CurriculumSubject={id:string;name:string;official:boolean;progression:string;units:CurriculumUnit[];optional?:boolean;warning?:string};
 const slug=(s:string)=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
-const U=(titles:string[],rich:string[]=[])=>titles.map(title=>({id:slug(title),title,status:rich.includes(title)?'rich':'structured'} as CurriculumUnit));
+const U=(titles:string[],_legacyRich:string[]=[])=>titles.map(title=>({id:slug(title),title,status:'structured'} as CurriculumUnit));
 export const curriculum3e:CurriculumSubject[]=[
 {id:'mathematiques',name:'Mathématiques',official:true,progression:'2026-2027',units:U(['Calcul littéral','Propriétés de Thalès dans un triangle','Racines carrées','Triangle rectangle','Calcul numérique','Angles inscrits','Vecteurs','Équations et inéquations dans ℝ','Pyramides et cônes','Statistique','Coordonnées de vecteurs','Équations de droites','Applications affines','Équations et inéquations dans ℝ × ℝ'],['Calcul littéral'])},
 {id:'francais',name:'Français',official:true,progression:'2026-2027',units:U(['Le dialogue oral','L’exposé oral','Le débat','Œuvre intégrale','Texte argumentatif — lecture','Article de journal — lecture','Le texte argumentatif','L’article de journal','Le résumé du texte argumentatif','La communication','La pronominalisation','L’adverbe et le groupe adverbial','L’infinitif et le participe','La coordination','L’expression des circonstances','Orthographe lexicale','Orthographe grammaticale'],['Le texte argumentatif','Le résumé du texte argumentatif','La communication','La pronominalisation','Orthographe grammaticale'])},
@@ -17,5 +18,7 @@ export const curriculum3e:CurriculumSubject[]=[
 {id:'arts-plastiques',name:'Arts plastiques',official:true,progression:'2026-2027',units:U(['Bande dessinée','Relation texte/image','Dépliant','Beauté corporelle et scarification','Équipements socioculturels','Gestion et protection de l’eau','Artisanat d’art et réduction du chômage','Art nègre et cubisme','Écriture artistique au début du 20ème siècle et naissance de l’art abstrait'])},
 {id:'education-musicale',name:'Éducation musicale',official:true,progression:'2026-2027',units:U(['L’Abidjanaise à 2 voix','La tonalité de La mineur harmonique','La musique des masques Wè, Dan et Gouro','Les mines anti-personnel','Le demi-soupir croche','Chanson populaire — période 1','Rôle et importance de l’impôt','La tonalité de Ré mineur harmonique','Lutte contre les drogues et l’alcool dans la communauté','Chanson populaire — période 2','La musique des fêtes de générations','Les quatre doubles croches','Chanson populaire — période 3','La musique rituelle et la préservation des valeurs traditionnelles','Le témoin en temps de guerre','Pratique instrumentale et remédiation'])}
 ];
-export const curriculumSubject=(id:string)=>curriculum3e.find(s=>s.id===id);
-export function coverage(){const subjects=curriculum3e.length,units=curriculum3e.reduce((n,s)=>n+s.units.length,0),rich=curriculum3e.reduce((n,s)=>n+s.units.filter(u=>u.status==='rich').length,0);return{subjects,units,rich,percent:units?Math.round(rich/units*100):0}}
+const richKeys=new Set(richLessons.map(l=>l.subject+':'+l.id));
+export const effectiveCurriculum=curriculum3e.map(s=>({...s,units:s.units.map(u=>({...u,status:richKeys.has(s.id+':'+u.id)?'rich' as const:u.status}))}));
+export const curriculumSubject=(id:string)=>effectiveCurriculum.find(s=>s.id===id);
+export function coverage(){const subjects=effectiveCurriculum.length,units=effectiveCurriculum.reduce((n,s)=>n+s.units.length,0),rich=effectiveCurriculum.reduce((n,s)=>n+s.units.filter(u=>u.status==='rich').length,0);return{subjects,units,rich,percent:units?Math.round(rich/units*100):0}}
