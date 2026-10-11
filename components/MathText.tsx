@@ -1,0 +1,2 @@
+import type {ReactNode} from 'react';
+export default function MathText({text}:{text:string}){const parts:ReactNode[]=[];const re=/([A-Z]{2})\u20d7/g;let last=0,m:RegExpExecArray|null;while((m=re.exec(text))!==null){if(m.index>last)parts.push(text.slice(last,m.index));parts.push(<span key={m.index} className="vectorNotation" aria-label={'vecteur '+m[1]}>{m[1]}</span>);last=re.lastIndex}if(last<text.length)parts.push(text.slice(last));return <>{parts}</>}
