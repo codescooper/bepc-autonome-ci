@@ -1,0 +1,45 @@
+import {test,expect} from '@playwright/test';
+const base='/mathematiques';
+test.beforeEach(async({page})=>{await page.addInitScript(()=>{localStorage.removeItem('bepc-progress-v2')})});
+test('progression Maths: verrou, réussite, reprise et révision libre',async({page})=>{
+ await page.goto(base);
+ await expect(page.getByRole('heading',{name:'Mathématiques'})).toBeVisible();
+ await expect(page.getByText('Verrouillée').first()).toBeVisible();
+ await page.goto(base+'/thales');
+ await expect(page.getByRole('heading',{name:'Leçon verrouillée'})).toBeVisible();
+ await page.goto(base+'/calcul-litteral');
+ await page.getByRole('button',{name:'Exercices'}).click();
+ await page.getByRole('textbox',{name:"Réponse à l'exercice"}).fill('x+14');
+ await page.getByRole('button',{name:'Vérifier ma réponse'}).click();
+ await expect(page.getByText('Bien joué')).toBeVisible();
+ await page.getByRole('button',{name:'Voir mon bilan'}).click();
+ await expect(page.getByRole('heading',{name:'Leçon terminée'})).toBeVisible();
+ await page.getByRole('link',{name:'Leçon suivante'}).click();
+ await expect(page).toHaveURL(/\/mathematiques\/thales/);
+ await expect(page.getByRole('heading',{name:'Propriétés de Thalès dans un triangle'})).toBeVisible();
+ await page.reload();
+ await expect(page.getByRole('heading',{name:'Propriétés de Thalès dans un triangle'})).toBeVisible();
+ await page.goto(base+'/racines-carrees');
+ await expect(page.getByRole('heading',{name:'Leçon verrouillée'})).toBeVisible();
+ await page.goto(base+'/calcul-litteral?mode=library');
+ await expect(page.getByRole('heading',{name:'Calcul littéral'})).toBeVisible();
+ await page.goto(base);
+ await expect(page.getByText('Refaire librement ↻')).toBeVisible();
+});
+test('clavier contextuel et calculatrice restent utilisables',async({page})=>{
+ await page.goto(base+'/calcul-litteral');
+ await page.getByRole('button',{name:'Exercices'}).click();
+ await page.getByRole('button',{name:'Insérer x'}).click();
+ await expect(page.getByRole('textbox',{name:"Réponse à l'exercice"})).toHaveValue('x');
+ await page.getByRole('button',{name:'Ouvrir la calculatrice'}).click();
+ await expect(page.getByText('⠿ Calculatrice')).toBeVisible();
+ await page.getByRole('button',{name:'Masquer la calculatrice'}).click();
+ await expect(page.getByRole('button',{name:'Ouvrir la calculatrice'})).toBeVisible();
+});
+test('matière: route future interdite et anciennes leçons accessibles',async({page})=>{
+ await page.goto('/matiere/physique-chimie');
+ const links=page.locator('.courseGrid a');
+ await expect(links).toHaveCount(1);
+ await page.goto('/matiere/physique-chimie/les-forces');
+ await expect(page.getByRole('heading',{name:'Leçon verrouillée'})).toBeVisible();
+});
