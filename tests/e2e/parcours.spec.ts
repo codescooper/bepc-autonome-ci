@@ -43,3 +43,11 @@ test('matière: route future interdite et anciennes leçons accessibles',async({
  await page.goto('/matiere/physique-chimie/les-forces');
  await expect(page.getByRole('heading',{name:'Leçon verrouillée'})).toBeVisible();
 });
+
+test('physique-chimie: première leçon accessible en mode guidé et bibliothèque',async({page})=>{
+ for(const mode of ['guided','library']){
+  const response=await page.goto('/matiere/physique-chimie/masse-et-poids-d-un-corps?mode='+mode);
+  expect(response?.status()).toBe(200);
+  await expect(page.getByRole('heading',{name:'Masse et poids d’un corps'})).toBeVisible();
+ }
+});
