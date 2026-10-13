@@ -18,6 +18,9 @@ export const curriculum3e:CurriculumSubject[]=[
 {id:'arts-plastiques',name:'Arts plastiques',official:true,progression:'2026-2027',units:U(['Bande dessinée','Relation texte/image','Dépliant','Beauté corporelle et scarification','Équipements socioculturels','Gestion et protection de l’eau','Artisanat d’art et réduction du chômage','Art nègre et cubisme','Écriture artistique au début du 20ème siècle et naissance de l’art abstrait'])},
 {id:'education-musicale',name:'Éducation musicale',official:true,progression:'2026-2027',units:U(['L’Abidjanaise à 2 voix','La tonalité de La mineur harmonique','La musique des masques Wè, Dan et Gouro','Les mines anti-personnel','Le demi-soupir croche','Chanson populaire — période 1','Rôle et importance de l’impôt','La tonalité de Ré mineur harmonique','Lutte contre les drogues et l’alcool dans la communauté','Chanson populaire — période 2','La musique des fêtes de générations','Les quatre doubles croches','Chanson populaire — période 3','La musique rituelle et la préservation des valeurs traditionnelles','Le témoin en temps de guerre','Pratique instrumentale et remédiation'])}
 ];
+// Les symboles mathématiques peuvent disparaître à la normalisation ASCII (ℝ → rien).
+// Préserver les identifiants existants, tout en distinguant les unités homonymes.
+for(const subject of curriculum3e){const seen=new Set<string>();for(const unit of subject.units){let id=unit.id;let n=2;while(seen.has(id))id=unit.id+'-'+n++;unit.id=id;seen.add(id)}}
 const richKeys=new Set(richLessons.map(l=>l.subject+':'+l.id));
 export const effectiveCurriculum=curriculum3e.map(s=>({...s,units:s.units.map(u=>({...u,status:richKeys.has(s.id+':'+u.id)?'rich' as const:u.status}))}));
 export const curriculumSubject=(id:string)=>effectiveCurriculum.find(s=>s.id===id);
