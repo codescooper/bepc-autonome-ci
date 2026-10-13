@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test';
 const base='/mathematiques';
-test.beforeEach(async({page})=>{await page.addInitScript(()=>{localStorage.removeItem('bepc-progress-v2')})});
+test.beforeEach(async({page})=>{await page.goto(base);await page.evaluate(()=>localStorage.removeItem('bepc-progress-v2'));});
 test('progression Maths: verrou, réussite, reprise et révision libre',async({page})=>{
  await page.goto(base);
  await expect(page.getByRole('heading',{name:'Mathématiques'})).toBeVisible();
