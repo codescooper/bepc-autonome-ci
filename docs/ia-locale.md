@@ -17,3 +17,11 @@ Le prototype utilise l'API expérimentale **LanguageModel** du navigateur lorsqu
 - Tester RAM, latence, cache et téléchargement sur des appareils Android d'entrée de gamme.
 - Ajouter des grilles de correction pour les questions ouvertes restantes ; sans grille, repli manuel.
 - Évaluer un moteur portable (WebLLM / Transformers.js) si l'API du navigateur est absente, sans rendre le téléchargement obligatoire.
+
+## Prototype Transformers.js / Qwen 0,5B
+
+Installer la dépendance après mise à jour du dépôt : `npm install`. Le bouton « Installer le modèle portable (WebGPU) » est proposé sur les questions ouvertes. L'installation n'est déclenchée qu'après clic. Le modèle `onnx-community/Qwen2.5-0.5B-Instruct` utilise `dtype: q4` et `device: webgpu`. Cette première version ne prend **pas** en charge le CPU/WASM pour ce modèle : si WebGPU échoue, le correcteur déterministe reste actif.
+
+Le téléchargement, le cache, les performances et la disponibilité hors ligne doivent être vérifiés sur chaque catégorie d'appareil. Le modèle ne doit pas décider seul de la maîtrise de la leçon. Le prototype ne propose pas encore de gestion de suppression du cache ni de quotas.
+
+Après `npm install`, exécuter `npm run check`, `npm run test:e2e`, puis `npm run dev`. Tester une question ouverte depuis `/programme/physique-chimie/les-forces`. Les tests automatisés existants ne chargent pas les poids du modèle ; un essai manuel WebGPU est indispensable.
