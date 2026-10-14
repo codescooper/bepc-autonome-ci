@@ -1,6 +1,6 @@
 import type {LocalJudge,LocalJudgeResult} from './hybrid-grader';
 const MODEL='onnx-community/Qwen2.5-0.5B-Instruct';
-type Generator=Awaited<ReturnType<typeof import('@huggingface/transformers')['pipeline']>>;
+type Generator=(messages:{role:string;content:string}[],options:{max_new_tokens:number;do_sample:boolean})=>Promise<Array<{generated_text:string|Array<{content?:string}>}>>;
 let generator:Generator|null=null;
 let loading:Promise<void>|null=null;
 let deviceUsed='';
@@ -19,7 +19,7 @@ export async function initializePortableAI(onProgress?:(message:string)=>void){
   const pipe=await pipeline('text-generation',MODEL,{device:'webgpu',dtype:'q4',progress_callback:(event:{status?:string;progress?:number;file?:string})=>{
    if(event.status==='progress'&&typeof event.progress==='number')onProgress?.('Téléchargement : '+Math.round(event.progress)+' % · '+(event.file||'modèle'));
   }});
-  generator=pipe;deviceUsed='WebGPU · Qwen2.5 0,5B q4';onProgress?.('Modèle chargé en mémoire. Cache hors ligne non encore garanti.');
+  generator=pipe as unknown as Generator;deviceUsed='WebGPU · Qwen2.5 0,5B q4';onProgress?.('Modèle chargé en mémoire. Cache hors ligne non encore garanti.');
  })();
  try{await loading}finally{loading=null}
 }
